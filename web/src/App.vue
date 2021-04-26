@@ -81,9 +81,10 @@
       </a-layout-content>
     </a-layout>
     <a-layout-footer style="text-align: center">
-      linghang-back 2020
+      Ant Design ©2018 Created by Ant UED
     </a-layout-footer>
   </a-layout>
+
 </template>
 
 <style>
