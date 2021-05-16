@@ -181,6 +181,9 @@
       <include refid="Example_Where_Clause" />
     </if>
   </select>
+  <select id="selectAll" resultType="com.jiawa.wiki.domain.Ebook">
+    select * from ebook
+  </select>
   <update id="updateByExampleSelective" parameterType="map">
     update ebook
     <set>

@@ -19,6 +19,8 @@ public interface EbookMapper {
 
     List<Ebook> selectByExample(EbookExample example);
 
+    List<Ebook> selectAll();
+
     Ebook selectByPrimaryKey(Long id);
 
     int updateByExampleSelective(@Param("record") Ebook record, @Param("example") EbookExample example);
