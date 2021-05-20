@@ -293,3 +293,5 @@ Caused by: java.lang.IllegalArgumentException: When allowCredentials is true, al
 2021-05-16 21:13:17.002 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
 2021-05-16 21:13:17.221 INFO  com.alibaba.druid.pool.DruidDataSource            :930  [32m                  [0;39m {dataSource-1} inited
 2021-05-16 21:13:18.112 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：1110 ms -----------
+2021-05-16 21:37:22.377 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-16 21:37:22.433 INFO  com.alibaba.druid.pool.DruidDataSource            :1825 [32m                  [0;39m {dataSource-1} closed
