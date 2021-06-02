@@ -32,9 +32,9 @@
         <template #cover="{ text: cover }">
           <img v-if="cover" :src="cover" alt="avatar" />
         </template>
-        <template v-slot:category="{ text, record }">
-          <span>{{ getCategoryName(record.category1Id) }} / {{ getCategoryName(record.category2Id) }}</span>
-        </template>
+<!--        <template v-slot:category="{ text, record }">-->
+<!--          <span>{{ getCategoryName(record.category1Id) }} / {{ getCategoryName(record.category2Id) }}</span>-->
+<!--        </template>-->
         <template v-slot:action="{ text, record }">
           <a-space size="small">
             <router-link :to="'/admin/doc?ebookId=' + record.id">
@@ -101,7 +101,7 @@ export default defineComponent({
     const ebooks = ref();
     const pagination = ref({
       current: 1,
-      pageSize: 10,
+      pageSize: 4,
       total: 0
     });
     const loading = ref(false);
@@ -268,20 +268,24 @@ export default defineComponent({
       });
     };
 
-    const getCategoryName = (cid: number) => {
-      // console.log(cid)
-      let result = "";
-      categorys.forEach((item: any) => {
-        if (item.id === cid) {
-          // return item.name; // 注意，这里直接return不起作用
-          result = item.name;
-        }
-      });
-      return result;
-    };
+    // const getCategoryName = (cid: number) => {
+    //   // console.log(cid)
+    //   let result = "";
+    //   categorys.forEach((item: any) => {
+    //     if (item.id === cid) {
+    //       // return item.name; // 注意，这里直接return不起作用
+    //       result = item.name;
+    //     }
+    //   });
+    //   return result;
+    // };
 
     onMounted(() => {
-      handleQueryCategory();
+      handleQuery({
+        page: 1,
+        size: pagination.value.pageSize
+      })
+      // handleQueryCategory();
     });
 
     return {
@@ -292,7 +296,7 @@ export default defineComponent({
       loading,
       handleTableChange,
       handleQuery,
-      getCategoryName,
+      // getCategoryName,
 
       // edit,
       add,
