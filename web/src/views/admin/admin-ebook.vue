@@ -183,13 +183,13 @@ export default defineComponent({
      * 数组，[100, 101]对应：前端开发 / Vue
      */
     const categoryIds = ref();
-    const ebook = ref();
+    const ebook = ref({});
     const modalVisible = ref(false);
     const modalLoading = ref(false);
     const handleModalOk = () => {
       modalLoading.value = true;
-      ebook.value.category1Id = categoryIds.value[0];
-      ebook.value.category2Id = categoryIds.value[1];
+      // ebook.value.category1Id = categoryIds.value[0];
+      // ebook.value.category2Id = categoryIds.value[1];
       axios.post("/ebook/save", ebook.value).then((response) => {
         modalLoading.value = false;
         const data = response.data; // data = commonResp
@@ -210,11 +210,13 @@ export default defineComponent({
     /**
      * 编辑
      */
-    // const edit = (record: any) => {
-    //   modalVisible.value = true;
-    //   ebook.value = Tool.copy(record);
-    //   categoryIds.value = [ebook.value.category1Id, ebook.value.category2Id]
-    // };
+    const edit = (record: any) => {
+      modalVisible.value = true;
+      ebook.value = record;
+      modalVisible.value = true;
+      // ebook.value = Tool.copy(record);
+      // categoryIds.value = [ebook.value.category1Id, ebook.value.category2Id]
+    };
 
     /**
      * 新增
@@ -298,7 +300,7 @@ export default defineComponent({
       handleQuery,
       // getCategoryName,
 
-      // edit,
+      edit,
       add,
 
       ebook,
