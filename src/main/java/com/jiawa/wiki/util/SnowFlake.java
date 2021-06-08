@@ -35,7 +35,6 @@ public class SnowFlake {
     private final static long MACHINE_LEFT = SEQUENCE_BIT;
     private final static long DATACENTER_LEFT = SEQUENCE_BIT + MACHINE_BIT;
     private final static long TIMESTMP_LEFT = DATACENTER_LEFT + DATACENTER_BIT;
-
     private long datacenterId = 1;  //数据中心
     private long machineId = 1;     //机器标识
     private long sequence = 0L; //序列号
@@ -65,7 +64,6 @@ public class SnowFlake {
         if (currStmp < lastStmp) {
             throw new RuntimeException("Clock moved backwards.  Refusing to generate id");
         }
-
         if (currStmp == lastStmp) {
             //相同毫秒内，序列号自增
             sequence = (sequence + 1) & MAX_SEQUENCE;
@@ -77,13 +75,12 @@ public class SnowFlake {
             //不同毫秒内，序列号置为0
             sequence = 0L;
         }
-
         lastStmp = currStmp;
-
-        return (currStmp - START_STMP) << TIMESTMP_LEFT //时间戳部分
-                | datacenterId << DATACENTER_LEFT       //数据中心部分
-                | machineId << MACHINE_LEFT             //机器标识部分
-                | sequence;                             //序列号部分
+        long result =  (currStmp - START_STMP) << TIMESTMP_LEFT //时间戳部分
+                        | datacenterId << DATACENTER_LEFT       //数据中心部分
+                        | machineId << MACHINE_LEFT             //机器标识部分
+                        | sequence;                             //序列号部分
+        return result;
     }
 
     private long getNextMill() {
@@ -99,16 +96,7 @@ public class SnowFlake {
     }
 
     public static void main(String[] args) throws ParseException {
-        // 时间戳
-        // System.out.println(System.currentTimeMillis());
-        // System.out.println(new Date().getTime());
-        //
-        // String dateTime = "2021-01-01 08:00:00";
-        // SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
-        // System.out.println(sdf.parse(dateTime).getTime());
-
         SnowFlake snowFlake = new SnowFlake(1, 1);
-
         long start = System.currentTimeMillis();
         for (int i = 0; i < 10; i++) {
             System.out.println(snowFlake.nextId());
