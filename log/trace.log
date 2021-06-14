@@ -1106,3 +1106,442 @@ Caused by: java.net.SocketException: Network is unreachable (connect failed)
 2021-06-14 12:42:20.327 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":200,"category2Id":202,"cover":"/image/cover1.png","description":"企业级应用开发首选框架","docCount":11,"id":1,"name":"Springboot最佳入门教程","viewCount":21,"voteCount":1},{"category1Id":100,"category2Id":101,"cover":"/image/cover2.png","description":"企业级应用开发首选框架","docCount":12223,"id":2,"name":"Vue入门教程","viewCount":212,"voteCount":2},{"category1Id":400,"category2Id":402,"cover":"/image/cover2.png","description":"非关系型数据库","docCount":32,"id":3,"name":"Redis开发与运维","viewCount":12,"voteCount":3},{"category1Id":200,"category2Id":201,"cover":"/image/cover1.png","description":"Java圣经","docCount":45,"id":4,"name":"Java编程思想","viewCount":21,"voteCount":4},{"category1Id":500,"category2Id":502,"cover":"/image/cover1.png","description":"很有意思的一本书","docCount":279,"id":5,"name":"Linux内核","viewCount":398,"voteCount":5},{"category1Id":500,"category2Id":501,"cover":"/image/cover2.png","description":"Github协同开发","docCount":90,"id":6,"name":"Git高手之路","viewCount":2,"voteCount":6}],"total":6},"message":"成功","success":true}
 2021-06-14 12:42:20.328 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：71 ms -------------
 2021-06-14 12:42:20.330 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：74 ms -----------
+2021-06-14 12:45:35.926 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-14 12:45:35.927 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 12:45:35.927 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 12:45:35.932 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-14 12:45:35.932 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 12:45:35.932 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.EbookController.list
+2021-06-14 12:45:35.934 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 12:45:35.934 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"page":1,"size":1000}]
+2021-06-14 12:45:36.038 INFO  com.jiawa.wiki.service.EbookService               :43   [32m                  [0;39m 总行数：6
+2021-06-14 12:45:36.038 INFO  com.jiawa.wiki.service.EbookService               :44   [32m                  [0;39m 总页数：1
+2021-06-14 12:45:36.040 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":200,"category2Id":202,"cover":"/image/cover1.png","description":"企业级应用开发首选框架","docCount":11,"id":1,"name":"Springboot最佳入门教程","viewCount":21,"voteCount":1},{"category1Id":100,"category2Id":101,"cover":"/image/cover2.png","description":"企业级应用开发首选框架","docCount":12223,"id":2,"name":"Vue入门教程","viewCount":212,"voteCount":2},{"category1Id":400,"category2Id":402,"cover":"/image/cover2.png","description":"非关系型数据库","docCount":32,"id":3,"name":"Redis开发与运维","viewCount":12,"voteCount":3},{"category1Id":200,"category2Id":201,"cover":"/image/cover1.png","description":"Java圣经","docCount":45,"id":4,"name":"Java编程思想","viewCount":21,"voteCount":4},{"category1Id":500,"category2Id":502,"cover":"/image/cover1.png","description":"很有意思的一本书","docCount":279,"id":5,"name":"Linux内核","viewCount":398,"voteCount":5},{"category1Id":500,"category2Id":501,"cover":"/image/cover2.png","description":"Github协同开发","docCount":90,"id":6,"name":"Git高手之路","viewCount":2,"voteCount":6}],"total":6},"message":"成功","success":true}
+2021-06-14 12:45:36.040 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：108 ms -------------
+2021-06-14 12:45:36.042 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：115 ms -----------
+2021-06-14 12:53:24.840 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-14 12:53:24.846 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 12:53:24.846 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 12:53:24.867 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-14 12:53:24.869 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 12:53:24.870 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.EbookController.list
+2021-06-14 12:53:24.871 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 12:53:24.873 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"page":1,"size":1000}]
+2021-06-14 12:53:25.026 INFO  com.jiawa.wiki.service.EbookService               :43   [32m                  [0;39m 总行数：6
+2021-06-14 12:53:25.097 INFO  com.jiawa.wiki.service.EbookService               :44   [32m                  [0;39m 总页数：1
+2021-06-14 12:53:25.101 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":200,"category2Id":202,"cover":"/image/cover1.png","description":"企业级应用开发首选框架","docCount":11,"id":1,"name":"Springboot最佳入门教程","viewCount":21,"voteCount":1},{"category1Id":100,"category2Id":101,"cover":"/image/cover2.png","description":"企业级应用开发首选框架","docCount":12223,"id":2,"name":"Vue入门教程","viewCount":212,"voteCount":2},{"category1Id":400,"category2Id":402,"cover":"/image/cover2.png","description":"非关系型数据库","docCount":32,"id":3,"name":"Redis开发与运维","viewCount":12,"voteCount":3},{"category1Id":200,"category2Id":201,"cover":"/image/cover1.png","description":"Java圣经","docCount":45,"id":4,"name":"Java编程思想","viewCount":21,"voteCount":4},{"category1Id":500,"category2Id":502,"cover":"/image/cover1.png","description":"很有意思的一本书","docCount":279,"id":5,"name":"Linux内核","viewCount":398,"voteCount":5},{"category1Id":500,"category2Id":501,"cover":"/image/cover2.png","description":"Github协同开发","docCount":90,"id":6,"name":"Git高手之路","viewCount":2,"voteCount":6}],"total":6},"message":"成功","success":true}
+2021-06-14 12:53:25.102 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：235 ms -------------
+2021-06-14 12:53:25.168 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：322 ms -----------
+2021-06-14 12:53:49.112 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-14 12:53:49.113 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 12:53:49.113 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 12:53:49.117 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-14 12:53:49.118 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 12:53:49.118 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.EbookController.list
+2021-06-14 12:53:49.118 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 12:53:49.119 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"page":1,"size":1000}]
+2021-06-14 12:53:49.183 INFO  com.jiawa.wiki.service.EbookService               :43   [32m                  [0;39m 总行数：6
+2021-06-14 12:53:49.184 INFO  com.jiawa.wiki.service.EbookService               :44   [32m                  [0;39m 总页数：1
+2021-06-14 12:53:49.189 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":200,"category2Id":202,"cover":"/image/cover1.png","description":"企业级应用开发首选框架","docCount":11,"id":1,"name":"Springboot最佳入门教程","viewCount":21,"voteCount":1},{"category1Id":100,"category2Id":101,"cover":"/image/cover2.png","description":"企业级应用开发首选框架","docCount":12223,"id":2,"name":"Vue入门教程","viewCount":212,"voteCount":2},{"category1Id":400,"category2Id":402,"cover":"/image/cover2.png","description":"非关系型数据库","docCount":32,"id":3,"name":"Redis开发与运维","viewCount":12,"voteCount":3},{"category1Id":200,"category2Id":201,"cover":"/image/cover1.png","description":"Java圣经","docCount":45,"id":4,"name":"Java编程思想","viewCount":21,"voteCount":4},{"category1Id":500,"category2Id":502,"cover":"/image/cover1.png","description":"很有意思的一本书","docCount":279,"id":5,"name":"Linux内核","viewCount":398,"voteCount":5},{"category1Id":500,"category2Id":501,"cover":"/image/cover2.png","description":"Github协同开发","docCount":90,"id":6,"name":"Git高手之路","viewCount":2,"voteCount":6}],"total":6},"message":"成功","success":true}
+2021-06-14 12:53:49.191 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：74 ms -------------
+2021-06-14 12:53:49.194 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：81 ms -----------
+2021-06-14 13:04:29.111 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-14 13:04:29.128 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2021-06-14 13:04:29.130 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:04:29.144 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-14 13:04:29.146 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2021-06-14 13:04:29.146 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.CategoryController.all
+2021-06-14 13:04:29.147 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:04:29.149 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: []
+2021-06-14 13:04:29.266 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":[{"id":100,"name":"前端开发","parent":0,"sort":100},{"id":101,"name":"Vue","parent":100,"sort":101},{"id":102,"name":"HTML & CSS","parent":100,"sort":102},{"id":200,"name":"Java","parent":0,"sort":200},{"id":201,"name":"基础应用","parent":200,"sort":201},{"id":202,"name":"框架英勇","parent":200,"sort":202},{"id":300,"name":"Python","parent":0,"sort":300},{"id":301,"name":"基础应用","parent":300,"sort":301},{"id":302,"name":"进阶方向应用","parent":300,"sort":302},{"id":400,"name":"数据库","parent":0,"sort":400},{"id":401,"name":"MySQL","parent":400,"sort":401},{"id":402,"name":"Redis","parent":400,"sort":402},{"id":500,"name":"其他","parent":0,"sort":500},{"id":501,"name":"开发工具","parent":500,"sort":501},{"id":502,"name":"服务器","parent":500,"sort":502},{"id":503,"name":"热门服务端语言","parent":500,"sort":503}],"message":"成功","success":true}
+2021-06-14 13:04:29.266 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：122 ms -------------
+2021-06-14 13:04:29.277 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：147 ms -----------
+2021-06-14 13:04:34.014 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-14 13:04:34.015 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2021-06-14 13:04:34.015 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:04:34.016 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-14 13:04:34.016 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2021-06-14 13:04:34.016 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.CategoryController.all
+2021-06-14 13:04:34.016 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:04:34.017 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: []
+2021-06-14 13:04:34.052 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":[{"id":100,"name":"前端开发","parent":0,"sort":100},{"id":101,"name":"Vue","parent":100,"sort":101},{"id":102,"name":"HTML & CSS","parent":100,"sort":102},{"id":200,"name":"Java","parent":0,"sort":200},{"id":201,"name":"基础应用","parent":200,"sort":201},{"id":202,"name":"框架英勇","parent":200,"sort":202},{"id":300,"name":"Python","parent":0,"sort":300},{"id":301,"name":"基础应用","parent":300,"sort":301},{"id":302,"name":"进阶方向应用","parent":300,"sort":302},{"id":400,"name":"数据库","parent":0,"sort":400},{"id":401,"name":"MySQL","parent":400,"sort":401},{"id":402,"name":"Redis","parent":400,"sort":402},{"id":500,"name":"其他","parent":0,"sort":500},{"id":501,"name":"开发工具","parent":500,"sort":501},{"id":502,"name":"服务器","parent":500,"sort":502},{"id":503,"name":"热门服务端语言","parent":500,"sort":503}],"message":"成功","success":true}
+2021-06-14 13:04:34.053 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：37 ms -------------
+2021-06-14 13:04:34.054 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：39 ms -----------
+2021-06-14 13:04:34.088 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-14 13:04:34.088 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:04:34.089 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:04:34.096 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-14 13:04:34.097 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:04:34.097 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.EbookController.list
+2021-06-14 13:04:34.097 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:04:34.097 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2021-06-14 13:04:34.160 INFO  com.jiawa.wiki.service.EbookService               :43   [32m                  [0;39m 总行数：6
+2021-06-14 13:04:34.161 INFO  com.jiawa.wiki.service.EbookService               :44   [32m                  [0;39m 总页数：1
+2021-06-14 13:04:34.163 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":200,"category2Id":202,"cover":"/image/cover1.png","description":"企业级应用开发首选框架","docCount":11,"id":1,"name":"Springboot最佳入门教程","viewCount":21,"voteCount":1},{"category1Id":100,"category2Id":101,"cover":"/image/cover2.png","description":"企业级应用开发首选框架","docCount":12223,"id":2,"name":"Vue入门教程","viewCount":212,"voteCount":2},{"category1Id":400,"category2Id":402,"cover":"/image/cover2.png","description":"非关系型数据库","docCount":32,"id":3,"name":"Redis开发与运维","viewCount":12,"voteCount":3},{"category1Id":200,"category2Id":201,"cover":"/image/cover1.png","description":"Java圣经","docCount":45,"id":4,"name":"Java编程思想","viewCount":21,"voteCount":4},{"category1Id":500,"category2Id":502,"cover":"/image/cover1.png","description":"很有意思的一本书","docCount":279,"id":5,"name":"Linux内核","viewCount":398,"voteCount":5},{"category1Id":500,"category2Id":501,"cover":"/image/cover2.png","description":"Github协同开发","docCount":90,"id":6,"name":"Git高手之路","viewCount":2,"voteCount":6}],"total":6},"message":"成功","success":true}
+2021-06-14 13:04:34.163 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：67 ms -------------
+2021-06-14 13:04:34.164 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：75 ms -----------
+2021-06-14 13:04:35.104 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-14 13:04:35.107 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2021-06-14 13:04:35.107 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:04:35.109 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-14 13:04:35.110 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2021-06-14 13:04:35.111 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.CategoryController.all
+2021-06-14 13:04:35.112 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:04:35.113 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: []
+2021-06-14 13:04:35.148 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":[{"id":100,"name":"前端开发","parent":0,"sort":100},{"id":101,"name":"Vue","parent":100,"sort":101},{"id":102,"name":"HTML & CSS","parent":100,"sort":102},{"id":200,"name":"Java","parent":0,"sort":200},{"id":201,"name":"基础应用","parent":200,"sort":201},{"id":202,"name":"框架英勇","parent":200,"sort":202},{"id":300,"name":"Python","parent":0,"sort":300},{"id":301,"name":"基础应用","parent":300,"sort":301},{"id":302,"name":"进阶方向应用","parent":300,"sort":302},{"id":400,"name":"数据库","parent":0,"sort":400},{"id":401,"name":"MySQL","parent":400,"sort":401},{"id":402,"name":"Redis","parent":400,"sort":402},{"id":500,"name":"其他","parent":0,"sort":500},{"id":501,"name":"开发工具","parent":500,"sort":501},{"id":502,"name":"服务器","parent":500,"sort":502},{"id":503,"name":"热门服务端语言","parent":500,"sort":503}],"message":"成功","success":true}
+2021-06-14 13:04:35.150 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：41 ms -------------
+2021-06-14 13:04:35.152 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：44 ms -----------
+2021-06-14 13:04:37.835 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-14 13:04:37.836 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:04:37.837 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:04:37.844 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-14 13:04:37.848 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:04:37.849 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.EbookController.list
+2021-06-14 13:04:37.849 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:04:37.850 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"categoryId2":102,"page":1,"size":1000}]
+2021-06-14 13:04:37.920 INFO  com.jiawa.wiki.service.EbookService               :43   [32m                  [0;39m 总行数：0
+2021-06-14 13:04:37.921 INFO  com.jiawa.wiki.service.EbookService               :44   [32m                  [0;39m 总页数：0
+2021-06-14 13:04:37.922 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"message":"成功","success":true}
+2021-06-14 13:04:37.922 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：78 ms -------------
+2021-06-14 13:04:37.923 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：86 ms -----------
+2021-06-14 13:04:39.971 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-14 13:04:39.972 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:04:39.972 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:04:39.974 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-14 13:04:39.975 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:04:39.976 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.EbookController.list
+2021-06-14 13:04:39.976 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:04:39.977 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"categoryId2":101,"page":1,"size":1000}]
+2021-06-14 13:04:40.042 INFO  com.jiawa.wiki.service.EbookService               :43   [32m                  [0;39m 总行数：1
+2021-06-14 13:04:40.043 INFO  com.jiawa.wiki.service.EbookService               :44   [32m                  [0;39m 总页数：1
+2021-06-14 13:04:40.044 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":100,"category2Id":101,"cover":"/image/cover2.png","description":"企业级应用开发首选框架","docCount":12223,"id":2,"name":"Vue入门教程","viewCount":212,"voteCount":2}],"total":1},"message":"成功","success":true}
+2021-06-14 13:04:40.045 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：71 ms -------------
+2021-06-14 13:04:40.048 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：76 ms -----------
+2021-06-14 13:04:41.034 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-14 13:04:41.035 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:04:41.035 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:04:41.036 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-14 13:04:41.037 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:04:41.037 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.EbookController.list
+2021-06-14 13:04:41.037 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:04:41.038 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"categoryId2":102,"page":1,"size":1000}]
+2021-06-14 13:04:41.074 INFO  com.jiawa.wiki.service.EbookService               :43   [32m                  [0;39m 总行数：0
+2021-06-14 13:04:41.075 INFO  com.jiawa.wiki.service.EbookService               :44   [32m                  [0;39m 总页数：0
+2021-06-14 13:04:41.075 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"message":"成功","success":true}
+2021-06-14 13:04:41.076 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：40 ms -------------
+2021-06-14 13:04:41.077 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：42 ms -----------
+2021-06-14 13:04:42.236 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-14 13:04:42.237 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:04:42.238 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:04:42.240 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-14 13:04:42.240 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:04:42.241 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.EbookController.list
+2021-06-14 13:04:42.241 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:04:42.242 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"categoryId2":201,"page":1,"size":1000}]
+2021-06-14 13:04:42.312 INFO  com.jiawa.wiki.service.EbookService               :43   [32m                  [0;39m 总行数：1
+2021-06-14 13:04:42.312 INFO  com.jiawa.wiki.service.EbookService               :44   [32m                  [0;39m 总页数：1
+2021-06-14 13:04:42.313 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":200,"category2Id":201,"cover":"/image/cover1.png","description":"Java圣经","docCount":45,"id":4,"name":"Java编程思想","viewCount":21,"voteCount":4}],"total":1},"message":"成功","success":true}
+2021-06-14 13:04:42.313 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：74 ms -------------
+2021-06-14 13:04:42.317 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：79 ms -----------
+2021-06-14 13:04:43.029 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-14 13:04:43.030 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:04:43.030 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:04:43.031 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-14 13:04:43.032 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:04:43.032 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.EbookController.list
+2021-06-14 13:04:43.033 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:04:43.033 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"categoryId2":202,"page":1,"size":1000}]
+2021-06-14 13:04:43.100 INFO  com.jiawa.wiki.service.EbookService               :43   [32m                  [0;39m 总行数：1
+2021-06-14 13:04:43.101 INFO  com.jiawa.wiki.service.EbookService               :44   [32m                  [0;39m 总页数：1
+2021-06-14 13:04:43.101 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":200,"category2Id":202,"cover":"/image/cover1.png","description":"企业级应用开发首选框架","docCount":11,"id":1,"name":"Springboot最佳入门教程","viewCount":21,"voteCount":1}],"total":1},"message":"成功","success":true}
+2021-06-14 13:04:43.101 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：70 ms -------------
+2021-06-14 13:04:43.103 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：73 ms -----------
+2021-06-14 13:04:44.315 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-14 13:04:44.316 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:04:44.316 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:04:44.318 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-14 13:04:44.318 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:04:44.319 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.EbookController.list
+2021-06-14 13:04:44.319 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:04:44.320 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"categoryId2":301,"page":1,"size":1000}]
+2021-06-14 13:04:44.353 INFO  com.jiawa.wiki.service.EbookService               :43   [32m                  [0;39m 总行数：0
+2021-06-14 13:04:44.354 INFO  com.jiawa.wiki.service.EbookService               :44   [32m                  [0;39m 总页数：0
+2021-06-14 13:04:44.354 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"message":"成功","success":true}
+2021-06-14 13:04:44.356 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：38 ms -------------
+2021-06-14 13:04:44.357 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：41 ms -----------
+2021-06-14 13:04:44.936 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-14 13:04:44.936 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:04:44.936 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:04:44.938 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-14 13:04:44.939 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:04:44.939 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.EbookController.list
+2021-06-14 13:04:44.940 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:04:44.940 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"categoryId2":302,"page":1,"size":1000}]
+2021-06-14 13:04:44.974 INFO  com.jiawa.wiki.service.EbookService               :43   [32m                  [0;39m 总行数：0
+2021-06-14 13:04:44.974 INFO  com.jiawa.wiki.service.EbookService               :44   [32m                  [0;39m 总页数：0
+2021-06-14 13:04:44.974 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"message":"成功","success":true}
+2021-06-14 13:04:44.975 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：37 ms -------------
+2021-06-14 13:04:44.976 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：40 ms -----------
+2021-06-14 13:04:46.675 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-14 13:04:46.676 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:04:46.676 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:04:46.678 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-14 13:04:46.678 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:04:46.679 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.EbookController.list
+2021-06-14 13:04:46.679 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:04:46.680 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"categoryId2":401,"page":1,"size":1000}]
+2021-06-14 13:04:46.718 INFO  com.jiawa.wiki.service.EbookService               :43   [32m                  [0;39m 总行数：0
+2021-06-14 13:04:46.720 INFO  com.jiawa.wiki.service.EbookService               :44   [32m                  [0;39m 总页数：0
+2021-06-14 13:04:46.721 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"message":"成功","success":true}
+2021-06-14 13:04:46.721 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：43 ms -------------
+2021-06-14 13:04:46.722 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：46 ms -----------
+2021-06-14 13:04:48.340 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-14 13:04:48.340 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:04:48.340 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:04:48.342 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-14 13:04:48.342 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:04:48.343 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.EbookController.list
+2021-06-14 13:04:48.343 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:04:48.344 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"categoryId2":402,"page":1,"size":1000}]
+2021-06-14 13:04:48.411 INFO  com.jiawa.wiki.service.EbookService               :43   [32m                  [0;39m 总行数：1
+2021-06-14 13:04:48.412 INFO  com.jiawa.wiki.service.EbookService               :44   [32m                  [0;39m 总页数：1
+2021-06-14 13:04:48.412 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":400,"category2Id":402,"cover":"/image/cover2.png","description":"非关系型数据库","docCount":32,"id":3,"name":"Redis开发与运维","viewCount":12,"voteCount":3}],"total":1},"message":"成功","success":true}
+2021-06-14 13:04:48.413 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：71 ms -------------
+2021-06-14 13:04:48.418 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：78 ms -----------
+2021-06-14 13:04:50.147 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-14 13:04:50.147 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:04:50.147 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:04:50.149 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-14 13:04:50.150 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:04:50.150 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.EbookController.list
+2021-06-14 13:04:50.151 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:04:50.151 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"categoryId2":501,"page":1,"size":1000}]
+2021-06-14 13:04:50.216 INFO  com.jiawa.wiki.service.EbookService               :43   [32m                  [0;39m 总行数：1
+2021-06-14 13:04:50.217 INFO  com.jiawa.wiki.service.EbookService               :44   [32m                  [0;39m 总页数：1
+2021-06-14 13:04:50.218 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":500,"category2Id":501,"cover":"/image/cover2.png","description":"Github协同开发","docCount":90,"id":6,"name":"Git高手之路","viewCount":2,"voteCount":6}],"total":1},"message":"成功","success":true}
+2021-06-14 13:04:50.218 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：69 ms -------------
+2021-06-14 13:04:50.219 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：71 ms -----------
+2021-06-14 13:04:52.265 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-14 13:04:52.266 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:04:52.266 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:04:52.268 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-14 13:04:52.268 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:04:52.269 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.EbookController.list
+2021-06-14 13:04:52.269 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:04:52.270 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"categoryId2":502,"page":1,"size":1000}]
+2021-06-14 13:04:52.338 INFO  com.jiawa.wiki.service.EbookService               :43   [32m                  [0;39m 总行数：1
+2021-06-14 13:04:52.339 INFO  com.jiawa.wiki.service.EbookService               :44   [32m                  [0;39m 总页数：1
+2021-06-14 13:04:52.339 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":500,"category2Id":502,"cover":"/image/cover1.png","description":"很有意思的一本书","docCount":279,"id":5,"name":"Linux内核","viewCount":398,"voteCount":5}],"total":1},"message":"成功","success":true}
+2021-06-14 13:04:52.339 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：71 ms -------------
+2021-06-14 13:04:52.340 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：74 ms -----------
+2021-06-14 13:04:54.014 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-14 13:04:54.015 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:04:54.015 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:04:54.017 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-14 13:04:54.017 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:04:54.018 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.EbookController.list
+2021-06-14 13:04:54.018 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:04:54.019 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"categoryId2":503,"page":1,"size":1000}]
+2021-06-14 13:04:54.055 INFO  com.jiawa.wiki.service.EbookService               :43   [32m                  [0;39m 总行数：0
+2021-06-14 13:04:54.056 INFO  com.jiawa.wiki.service.EbookService               :44   [32m                  [0;39m 总页数：0
+2021-06-14 13:04:54.057 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"message":"成功","success":true}
+2021-06-14 13:04:54.057 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：40 ms -------------
+2021-06-14 13:04:54.059 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：43 ms -----------
+2021-06-14 13:04:55.346 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-14 13:04:55.347 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:04:55.347 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:04:55.351 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-14 13:04:55.352 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:04:55.352 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.EbookController.list
+2021-06-14 13:04:55.353 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:04:55.353 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"categoryId2":101,"page":1,"size":1000}]
+2021-06-14 13:04:55.419 INFO  com.jiawa.wiki.service.EbookService               :43   [32m                  [0;39m 总行数：1
+2021-06-14 13:04:55.420 INFO  com.jiawa.wiki.service.EbookService               :44   [32m                  [0;39m 总页数：1
+2021-06-14 13:04:55.421 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":100,"category2Id":101,"cover":"/image/cover2.png","description":"企业级应用开发首选框架","docCount":12223,"id":2,"name":"Vue入门教程","viewCount":212,"voteCount":2}],"total":1},"message":"成功","success":true}
+2021-06-14 13:04:55.421 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：70 ms -------------
+2021-06-14 13:04:55.423 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：76 ms -----------
+2021-06-14 13:06:28.094 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-14 13:06:28.097 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2021-06-14 13:06:28.101 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:06:28.102 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-14 13:06:28.105 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2021-06-14 13:06:28.105 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.CategoryController.all
+2021-06-14 13:06:28.106 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:06:28.106 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: []
+2021-06-14 13:06:28.147 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-14 13:06:28.148 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:06:28.156 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:06:28.170 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-14 13:06:28.171 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:06:28.171 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.EbookController.list
+2021-06-14 13:06:28.171 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:06:28.172 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"categoryId2":0,"page":1,"size":1000}]
+2021-06-14 13:06:28.228 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":[{"id":100,"name":"前端开发","parent":0,"sort":100},{"id":101,"name":"Vue","parent":100,"sort":101},{"id":102,"name":"HTML & CSS","parent":100,"sort":102},{"id":200,"name":"Java","parent":0,"sort":200},{"id":201,"name":"基础应用","parent":200,"sort":201},{"id":202,"name":"框架英勇","parent":200,"sort":202},{"id":300,"name":"Python","parent":0,"sort":300},{"id":301,"name":"基础应用","parent":300,"sort":301},{"id":302,"name":"进阶方向应用","parent":300,"sort":302},{"id":400,"name":"数据库","parent":0,"sort":400},{"id":401,"name":"MySQL","parent":400,"sort":401},{"id":402,"name":"Redis","parent":400,"sort":402},{"id":500,"name":"其他","parent":0,"sort":500},{"id":501,"name":"开发工具","parent":500,"sort":501},{"id":502,"name":"服务器","parent":500,"sort":502},{"id":503,"name":"热门服务端语言","parent":500,"sort":503}],"message":"成功","success":true}
+2021-06-14 13:06:28.228 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：126 ms -------------
+2021-06-14 13:06:28.233 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：131 ms -----------
+2021-06-14 13:06:28.255 INFO  com.jiawa.wiki.service.EbookService               :43   [32m                  [0;39m 总行数：0
+2021-06-14 13:06:28.255 INFO  com.jiawa.wiki.service.EbookService               :44   [32m                  [0;39m 总页数：0
+2021-06-14 13:06:28.255 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"message":"成功","success":true}
+2021-06-14 13:06:28.256 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：86 ms -------------
+2021-06-14 13:06:28.258 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：102 ms -----------
+2021-06-14 13:06:32.322 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-14 13:06:32.322 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:06:32.322 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:06:32.328 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-14 13:06:32.328 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:06:32.328 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.EbookController.list
+2021-06-14 13:06:32.330 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:06:32.330 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"categoryId2":101,"page":1,"size":1000}]
+2021-06-14 13:06:32.400 INFO  com.jiawa.wiki.service.EbookService               :43   [32m                  [0;39m 总行数：1
+2021-06-14 13:06:32.400 INFO  com.jiawa.wiki.service.EbookService               :44   [32m                  [0;39m 总页数：1
+2021-06-14 13:06:32.401 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":100,"category2Id":101,"cover":"/image/cover2.png","description":"企业级应用开发首选框架","docCount":12223,"id":2,"name":"Vue入门教程","viewCount":212,"voteCount":2}],"total":1},"message":"成功","success":true}
+2021-06-14 13:06:32.401 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：74 ms -------------
+2021-06-14 13:06:32.403 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：81 ms -----------
+2021-06-14 13:06:33.115 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-14 13:06:33.115 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:06:33.115 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:06:33.120 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-14 13:06:33.121 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:06:33.121 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.EbookController.list
+2021-06-14 13:06:33.122 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:06:33.122 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"categoryId2":102,"page":1,"size":1000}]
+2021-06-14 13:06:33.159 INFO  com.jiawa.wiki.service.EbookService               :43   [32m                  [0;39m 总行数：0
+2021-06-14 13:06:33.160 INFO  com.jiawa.wiki.service.EbookService               :44   [32m                  [0;39m 总页数：0
+2021-06-14 13:06:33.160 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"message":"成功","success":true}
+2021-06-14 13:06:33.161 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：41 ms -------------
+2021-06-14 13:06:33.163 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：48 ms -----------
+2021-06-14 13:14:03.048 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-14 13:14:03.048 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-14 13:14:03.055 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook-snapshot/get-30-statistic GET
+2021-06-14 13:14:03.054 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook-snapshot/get-statistic GET
+2021-06-14 13:14:03.055 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:14:03.055 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:14:03.074 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-14 13:14:03.074 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2021-06-14 13:14:03.074 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:14:03.088 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-14 13:14:03.090 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2021-06-14 13:14:03.090 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.CategoryController.all
+2021-06-14 13:14:03.090 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:14:03.091 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: []
+2021-06-14 13:14:03.188 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":[{"id":100,"name":"前端开发","parent":0,"sort":100},{"id":101,"name":"Vue","parent":100,"sort":101},{"id":102,"name":"HTML & CSS","parent":100,"sort":102},{"id":200,"name":"Java","parent":0,"sort":200},{"id":201,"name":"基础应用","parent":200,"sort":201},{"id":202,"name":"框架英勇","parent":200,"sort":202},{"id":300,"name":"Python","parent":0,"sort":300},{"id":301,"name":"基础应用","parent":300,"sort":301},{"id":302,"name":"进阶方向应用","parent":300,"sort":302},{"id":400,"name":"数据库","parent":0,"sort":400},{"id":401,"name":"MySQL","parent":400,"sort":401},{"id":402,"name":"Redis","parent":400,"sort":402},{"id":500,"name":"其他","parent":0,"sort":500},{"id":501,"name":"开发工具","parent":500,"sort":501},{"id":502,"name":"服务器","parent":500,"sort":502},{"id":503,"name":"热门服务端语言","parent":500,"sort":503}],"message":"成功","success":true}
+2021-06-14 13:14:03.189 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：101 ms -------------
+2021-06-14 13:14:03.193 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：137 ms -----------
+2021-06-14 13:14:03.194 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：138 ms -----------
+2021-06-14 13:14:03.199 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：125 ms -----------
+2021-06-14 13:14:17.913 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-14 13:14:17.914 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:14:17.914 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:14:17.925 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-14 13:14:17.926 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:14:17.927 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.EbookController.list
+2021-06-14 13:14:17.927 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:14:17.928 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"categoryId2":101,"page":1,"size":1000}]
+2021-06-14 13:14:18.019 INFO  com.jiawa.wiki.service.EbookService               :43   [32m                  [0;39m 总行数：1
+2021-06-14 13:14:18.020 INFO  com.jiawa.wiki.service.EbookService               :44   [32m                  [0;39m 总页数：1
+2021-06-14 13:14:18.024 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":100,"category2Id":101,"cover":"/image/cover2.png","description":"企业级应用开发首选框架","docCount":12223,"id":2,"name":"Vue入门教程","viewCount":212,"voteCount":2}],"total":1},"message":"成功","success":true}
+2021-06-14 13:14:18.025 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：100 ms -------------
+2021-06-14 13:14:18.027 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：112 ms -----------
+2021-06-14 13:14:31.176 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-14 13:14:31.177 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook-snapshot/get-statistic GET
+2021-06-14 13:14:31.178 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:14:31.178 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-14 13:14:31.179 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook-snapshot/get-30-statistic GET
+2021-06-14 13:14:31.179 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:14:31.179 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-14 13:14:31.179 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2021-06-14 13:14:31.179 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:14:31.180 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-14 13:14:31.182 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2021-06-14 13:14:31.182 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.CategoryController.all
+2021-06-14 13:14:31.182 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:14:31.182 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: []
+2021-06-14 13:14:31.189 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：10 ms -----------
+2021-06-14 13:14:31.189 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：11 ms -----------
+2021-06-14 13:14:31.219 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":[{"id":100,"name":"前端开发","parent":0,"sort":100},{"id":101,"name":"Vue","parent":100,"sort":101},{"id":102,"name":"HTML & CSS","parent":100,"sort":102},{"id":200,"name":"Java","parent":0,"sort":200},{"id":201,"name":"基础应用","parent":200,"sort":201},{"id":202,"name":"框架英勇","parent":200,"sort":202},{"id":300,"name":"Python","parent":0,"sort":300},{"id":301,"name":"基础应用","parent":300,"sort":301},{"id":302,"name":"进阶方向应用","parent":300,"sort":302},{"id":400,"name":"数据库","parent":0,"sort":400},{"id":401,"name":"MySQL","parent":400,"sort":401},{"id":402,"name":"Redis","parent":400,"sort":402},{"id":500,"name":"其他","parent":0,"sort":500},{"id":501,"name":"开发工具","parent":500,"sort":501},{"id":502,"name":"服务器","parent":500,"sort":502},{"id":503,"name":"热门服务端语言","parent":500,"sort":503}],"message":"成功","success":true}
+2021-06-14 13:14:31.220 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：40 ms -------------
+2021-06-14 13:14:31.221 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：41 ms -----------
+2021-06-14 13:15:15.026 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-14 13:15:15.028 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-14 13:15:15.028 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook-snapshot/get-statistic GET
+2021-06-14 13:15:15.028 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:15:15.029 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-14 13:15:15.029 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2021-06-14 13:15:15.029 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:15:15.027 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook-snapshot/get-30-statistic GET
+2021-06-14 13:15:15.030 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-14 13:15:15.033 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2021-06-14 13:15:15.033 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.CategoryController.all
+2021-06-14 13:15:15.033 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:15:15.030 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:15:15.034 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: []
+2021-06-14 13:15:15.035 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：7 ms -----------
+2021-06-14 13:15:15.037 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：3 ms -----------
+2021-06-14 13:15:15.064 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":[{"id":100,"name":"前端开发","parent":0,"sort":100},{"id":101,"name":"Vue","parent":100,"sort":101},{"id":102,"name":"HTML & CSS","parent":100,"sort":102},{"id":200,"name":"Java","parent":0,"sort":200},{"id":201,"name":"基础应用","parent":200,"sort":201},{"id":202,"name":"框架英勇","parent":200,"sort":202},{"id":300,"name":"Python","parent":0,"sort":300},{"id":301,"name":"基础应用","parent":300,"sort":301},{"id":302,"name":"进阶方向应用","parent":300,"sort":302},{"id":400,"name":"数据库","parent":0,"sort":400},{"id":401,"name":"MySQL","parent":400,"sort":401},{"id":402,"name":"Redis","parent":400,"sort":402},{"id":500,"name":"其他","parent":0,"sort":500},{"id":501,"name":"开发工具","parent":500,"sort":501},{"id":502,"name":"服务器","parent":500,"sort":502},{"id":503,"name":"热门服务端语言","parent":500,"sort":503}],"message":"成功","success":true}
+2021-06-14 13:15:15.064 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：34 ms -------------
+2021-06-14 13:15:15.067 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：38 ms -----------
+2021-06-14 13:15:17.413 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-14 13:15:17.415 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:15:17.415 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:15:17.417 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-14 13:15:17.418 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:15:17.418 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.EbookController.list
+2021-06-14 13:15:17.419 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:15:17.420 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"categoryId2":101,"page":1,"size":1000}]
+2021-06-14 13:15:17.484 INFO  com.jiawa.wiki.service.EbookService               :43   [32m                  [0;39m 总行数：1
+2021-06-14 13:15:17.485 INFO  com.jiawa.wiki.service.EbookService               :44   [32m                  [0;39m 总页数：1
+2021-06-14 13:15:17.485 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":100,"category2Id":101,"cover":"/image/cover2.png","description":"企业级应用开发首选框架","docCount":12223,"id":2,"name":"Vue入门教程","viewCount":212,"voteCount":2}],"total":1},"message":"成功","success":true}
+2021-06-14 13:15:17.486 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：69 ms -------------
+2021-06-14 13:15:17.487 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：72 ms -----------
+2021-06-14 13:15:18.412 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-14 13:15:18.413 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:15:18.413 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:15:18.415 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-14 13:15:18.417 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:15:18.417 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.EbookController.list
+2021-06-14 13:15:18.418 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:15:18.418 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"categoryId2":102,"page":1,"size":1000}]
+2021-06-14 13:15:18.455 INFO  com.jiawa.wiki.service.EbookService               :43   [32m                  [0;39m 总行数：0
+2021-06-14 13:15:18.457 INFO  com.jiawa.wiki.service.EbookService               :44   [32m                  [0;39m 总页数：0
+2021-06-14 13:15:18.458 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"message":"成功","success":true}
+2021-06-14 13:15:18.458 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：43 ms -------------
+2021-06-14 13:15:18.459 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：46 ms -----------
+2021-06-14 13:15:19.469 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-14 13:15:19.469 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:15:19.469 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:15:19.471 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-14 13:15:19.472 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:15:19.472 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.EbookController.list
+2021-06-14 13:15:19.472 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:15:19.473 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"categoryId2":101,"page":1,"size":1000}]
+2021-06-14 13:15:19.535 INFO  com.jiawa.wiki.service.EbookService               :43   [32m                  [0;39m 总行数：1
+2021-06-14 13:15:19.535 INFO  com.jiawa.wiki.service.EbookService               :44   [32m                  [0;39m 总页数：1
+2021-06-14 13:15:19.536 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":100,"category2Id":101,"cover":"/image/cover2.png","description":"企业级应用开发首选框架","docCount":12223,"id":2,"name":"Vue入门教程","viewCount":212,"voteCount":2}],"total":1},"message":"成功","success":true}
+2021-06-14 13:15:19.536 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：65 ms -------------
+2021-06-14 13:15:19.537 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：68 ms -----------
+2021-06-14 13:15:20.308 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-14 13:15:20.308 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:15:20.308 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:15:20.310 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-14 13:15:20.311 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:15:20.311 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.EbookController.list
+2021-06-14 13:15:20.311 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:15:20.312 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"categoryId2":102,"page":1,"size":1000}]
+2021-06-14 13:15:20.345 INFO  com.jiawa.wiki.service.EbookService               :43   [32m                  [0;39m 总行数：0
+2021-06-14 13:15:20.346 INFO  com.jiawa.wiki.service.EbookService               :44   [32m                  [0;39m 总页数：0
+2021-06-14 13:15:20.347 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"message":"成功","success":true}
+2021-06-14 13:15:20.348 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：38 ms -------------
+2021-06-14 13:15:20.355 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：46 ms -----------
+2021-06-14 13:15:22.372 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-14 13:15:22.374 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:15:22.374 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:15:22.376 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-14 13:15:22.376 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-14 13:15:22.377 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.EbookController.list
+2021-06-14 13:15:22.377 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-14 13:15:22.378 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"categoryId2":201,"page":1,"size":1000}]
+2021-06-14 13:15:22.441 INFO  com.jiawa.wiki.service.EbookService               :43   [32m                  [0;39m 总行数：1
+2021-06-14 13:15:22.441 INFO  com.jiawa.wiki.service.EbookService               :44   [32m                  [0;39m 总页数：1
+2021-06-14 13:15:22.442 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":200,"category2Id":201,"cover":"/image/cover1.png","description":"Java圣经","docCount":45,"id":4,"name":"Java编程思想","viewCount":21,"voteCount":4}],"total":1},"message":"成功","success":true}
+2021-06-14 13:15:22.442 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：66 ms -------------
+2021-06-14 13:15:22.443 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：69 ms -----------
