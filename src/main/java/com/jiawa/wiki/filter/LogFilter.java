@@ -2,7 +2,7 @@ package com.jiawa.wiki.filter;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.stereotype.Component;
+
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
@@ -10,7 +10,7 @@ import java.io.IOException;
  * @author qyyzxty@icloud.com
  * 2021/5/16
  **/
-@Component
+//@Component
 public class LogFilter implements Filter {
 
     private static final Logger LOG = LoggerFactory.getLogger(LogFilter.class);
