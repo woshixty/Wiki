@@ -10,6 +10,11 @@ spring:
     username: root
     url: jdbc:mysql://8.131.57.6:3306/wiki?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
     password: Flzx3qcYsyhl9t
+  redis:
+    host: 8.131.57.6
+    port: 6379
+    password: Flzx3qcYsyhl9t
+    database: 1
 
 # 配置mybatis所有的Mapper.xml所在路径
 test:

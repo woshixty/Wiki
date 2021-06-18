@@ -45,6 +45,12 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
+import axios from 'axios';
+import { message } from 'ant-design-vue';
+import store from "@/store";
+
+declare let hexMd5: any;
+declare let KEY: any;
 
 export default defineComponent({
   name: 'the-header',
