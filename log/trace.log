@@ -341,3 +341,1407 @@
 2021-06-18 18:15:50.425 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":[{"ebookId":1,"id":1,"name":"文档1","parent":0,"sort":1,"viewCount":0,"voteCount":0},{"ebookId":1,"id":2,"name":"文档1.1","parent":1,"sort":1,"viewCount":0,"voteCount":0},{"ebookId":1,"id":4,"name":"文档2.1","parent":3,"sort":1,"viewCount":0,"voteCount":0},{"ebookId":1,"id":6,"name":"文档2.2.1","parent":5,"sort":1,"viewCount":0,"voteCount":0},{"ebookId":1,"id":3,"name":"文档2","parent":0,"sort":2,"viewCount":0,"voteCount":0},{"ebookId":1,"id":5,"name":"文档2.2","parent":3,"sort":2,"viewCount":0,"voteCount":0}],"message":"成功","success":true}
 2021-06-18 18:15:50.425 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：38 ms -------------
 2021-06-18 18:15:50.427 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：42 ms -----------
+2021-06-18 19:08:44.721 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-18 19:08:44.731 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/doc/all/3 GET
+2021-06-18 19:08:44.733 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 19:08:44.779 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-18 19:08:44.804 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/doc/all/3 GET
+2021-06-18 19:08:44.805 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.DocController.all
+2021-06-18 19:08:44.806 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 19:08:44.816 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [3]
+2021-06-18 19:08:45.441 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":[{"ebookId":3,"id":61035961546575872,"name":"Redis安装","parent":0,"sort":1,"viewCount":0,"voteCount":0},{"ebookId":3,"id":61036024268197888,"name":"Redis基本介绍","parent":0,"sort":2,"viewCount":0,"voteCount":0}],"message":"成功","success":true}
+2021-06-18 19:08:45.442 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：663 ms -------------
+2021-06-18 19:08:45.486 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：753 ms -----------
+2021-06-18 19:12:31.501 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-06-18 19:12:31.683 INFO  com.alibaba.druid.pool.DruidDataSource            :1825 [32m                  [0;39m {dataSource-1} closed
+2021-06-18 19:12:40.213 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2021-06-18 19:12:40.427 INFO  com.jiawa.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_261 on tydemacbook.local with PID 6356 (/Users/mr.stark/Desktop/wiki/target/classes started by mr.stark in /Users/mr.stark/Desktop/wiki)
+2021-06-18 19:12:40.428 INFO  com.jiawa.wiki.config.WikiApplication             :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-06-18 19:12:40.512 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-18 19:12:40.512 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-18 19:12:42.088 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-06-18 19:12:42.093 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-06-18 19:12:42.137 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2021-06-18 19:12:44.211 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-06-18 19:12:44.234 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-06-18 19:12:44.235 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-06-18 19:12:44.235 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-06-18 19:12:44.337 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-06-18 19:12:44.338 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 3825 ms
+2021-06-18 19:12:46.458 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-18 19:12:47.168 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-06-18 19:12:47.236 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-06-18 19:12:47.284 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-06-18 19:12:47.299 INFO  com.jiawa.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 7.769 seconds (JVM running for 8.923)
+2021-06-18 19:12:47.304 INFO  com.jiawa.wiki.config.WikiApplication             :21   [32m                  [0;39m 启动成功！！！
+2021-06-18 19:12:47.306 INFO  com.jiawa.wiki.config.WikiApplication             :22   [32m                  [0;39m 地址：	http://127.0.0.1:8880
+2021-06-18 19:13:37.238 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-18 19:13:37.239 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-06-18 19:13:37.244 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 4 ms
+2021-06-18 19:13:37.257 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-18 19:13:37.257 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-18 19:13:37.257 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-18 19:13:37.258 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2021-06-18 19:13:37.258 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook-snapshot/get-statistic GET
+2021-06-18 19:13:37.258 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook-snapshot/get-30-statistic GET
+2021-06-18 19:13:37.258 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 19:13:37.258 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 19:13:37.258 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 19:13:37.373 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：115 ms -----------
+2021-06-18 19:13:37.378 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-18 19:13:37.379 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2021-06-18 19:13:37.379 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.CategoryController.all
+2021-06-18 19:13:37.380 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 19:13:37.379 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：121 ms -----------
+2021-06-18 19:13:37.655 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: []
+2021-06-18 19:13:38.255 INFO  com.alibaba.druid.pool.DruidDataSource            :930  [32m                  [0;39m {dataSource-1} inited
+2021-06-18 19:13:39.027 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":[{"id":100,"name":"前端开发","parent":0,"sort":100},{"id":101,"name":"Vue","parent":100,"sort":101},{"id":102,"name":"HTML & CSS","parent":100,"sort":102},{"id":200,"name":"Java","parent":0,"sort":200},{"id":201,"name":"基础应用","parent":200,"sort":201},{"id":202,"name":"框架英勇","parent":200,"sort":202},{"id":300,"name":"Python","parent":0,"sort":300},{"id":301,"name":"基础应用","parent":300,"sort":301},{"id":302,"name":"进阶方向应用","parent":300,"sort":302},{"id":400,"name":"数据库","parent":0,"sort":400},{"id":401,"name":"MySQL","parent":400,"sort":401},{"id":402,"name":"Redis","parent":400,"sort":402},{"id":500,"name":"其他","parent":0,"sort":500},{"id":501,"name":"开发工具","parent":500,"sort":501},{"id":502,"name":"服务器","parent":500,"sort":502},{"id":503,"name":"热门服务端语言","parent":500,"sort":503}],"message":"成功","success":true}
+2021-06-18 19:13:39.028 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：1655 ms -------------
+2021-06-18 19:13:39.049 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：1791 ms -----------
+2021-06-18 19:13:40.661 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-18 19:13:40.661 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2021-06-18 19:13:40.662 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 19:13:40.833 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-18 19:13:40.835 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2021-06-18 19:13:40.836 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.UserController.list
+2021-06-18 19:13:40.837 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 19:13:40.840 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2021-06-18 19:13:40.855 ERROR c.jiawa.wiki.controller.ControllerExceptionHandler:59   [32m                  [0;39m 系统异常：
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.jiawa.wiki.mapper.UserMapper.selectByExample
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:115)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:102)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy90.selectByExample(Unknown Source)
+	at com.jiawa.wiki.service.UserService.list(UserService.java:42)
+	at com.jiawa.wiki.controller.UserController.list(UserController.java:27)
+	at com.jiawa.wiki.controller.UserController$$FastClassBySpringCGLIB$$5f26ceea.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.jiawa.wiki.aspect.LogAspect.doAround(LogAspect.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.jiawa.wiki.controller.UserController$$EnhancerBySpringCGLIB$$ff7116b9.list(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.jiawa.wiki.filter.LogFilter.doFilter(LogFilter.java:33)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-18 19:13:40.859 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.jiawa.wiki.mapper.UserMapper.selectByExample]
+2021-06-18 19:13:40.860 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：198 ms -----------
+2021-06-18 19:13:50.659 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-18 19:13:50.661 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook-snapshot/get-statistic GET
+2021-06-18 19:13:50.661 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 19:13:50.665 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：4 ms -----------
+2021-06-18 19:13:50.668 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-18 19:13:50.668 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2021-06-18 19:13:50.668 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 19:13:50.669 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-18 19:13:50.670 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2021-06-18 19:13:50.670 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.CategoryController.all
+2021-06-18 19:13:50.670 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 19:13:50.671 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: []
+2021-06-18 19:13:50.679 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-18 19:13:50.679 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook-snapshot/get-30-statistic GET
+2021-06-18 19:13:50.680 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 19:13:50.681 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：1 ms -----------
+2021-06-18 19:13:50.705 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":[{"id":100,"name":"前端开发","parent":0,"sort":100},{"id":101,"name":"Vue","parent":100,"sort":101},{"id":102,"name":"HTML & CSS","parent":100,"sort":102},{"id":200,"name":"Java","parent":0,"sort":200},{"id":201,"name":"基础应用","parent":200,"sort":201},{"id":202,"name":"框架英勇","parent":200,"sort":202},{"id":300,"name":"Python","parent":0,"sort":300},{"id":301,"name":"基础应用","parent":300,"sort":301},{"id":302,"name":"进阶方向应用","parent":300,"sort":302},{"id":400,"name":"数据库","parent":0,"sort":400},{"id":401,"name":"MySQL","parent":400,"sort":401},{"id":402,"name":"Redis","parent":400,"sort":402},{"id":500,"name":"其他","parent":0,"sort":500},{"id":501,"name":"开发工具","parent":500,"sort":501},{"id":502,"name":"服务器","parent":500,"sort":502},{"id":503,"name":"热门服务端语言","parent":500,"sort":503}],"message":"成功","success":true}
+2021-06-18 19:13:50.705 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：36 ms -------------
+2021-06-18 19:13:50.707 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：38 ms -----------
+2021-06-18 19:13:53.302 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-18 19:13:53.303 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2021-06-18 19:13:53.304 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 19:13:53.306 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-18 19:13:53.306 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2021-06-18 19:13:53.306 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.UserController.list
+2021-06-18 19:13:53.307 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 19:13:53.307 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2021-06-18 19:13:53.308 ERROR c.jiawa.wiki.controller.ControllerExceptionHandler:59   [32m                  [0;39m 系统异常：
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.jiawa.wiki.mapper.UserMapper.selectByExample
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:115)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:102)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy90.selectByExample(Unknown Source)
+	at com.jiawa.wiki.service.UserService.list(UserService.java:42)
+	at com.jiawa.wiki.controller.UserController.list(UserController.java:27)
+	at com.jiawa.wiki.controller.UserController$$FastClassBySpringCGLIB$$5f26ceea.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.jiawa.wiki.aspect.LogAspect.doAround(LogAspect.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.jiawa.wiki.controller.UserController$$EnhancerBySpringCGLIB$$ff7116b9.list(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.jiawa.wiki.filter.LogFilter.doFilter(LogFilter.java:33)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-18 19:13:53.317 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.jiawa.wiki.mapper.UserMapper.selectByExample]
+2021-06-18 19:13:53.318 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：14 ms -----------
+2021-06-18 19:14:27.645 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-18 19:14:27.647 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2021-06-18 19:14:27.647 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 19:14:27.651 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-18 19:14:27.652 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2021-06-18 19:14:27.652 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.UserController.list
+2021-06-18 19:14:27.653 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 19:14:27.654 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2021-06-18 19:14:27.654 ERROR c.jiawa.wiki.controller.ControllerExceptionHandler:59   [32m                  [0;39m 系统异常：
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.jiawa.wiki.mapper.UserMapper.selectByExample
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:115)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:102)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy90.selectByExample(Unknown Source)
+	at com.jiawa.wiki.service.UserService.list(UserService.java:42)
+	at com.jiawa.wiki.controller.UserController.list(UserController.java:27)
+	at com.jiawa.wiki.controller.UserController$$FastClassBySpringCGLIB$$5f26ceea.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.jiawa.wiki.aspect.LogAspect.doAround(LogAspect.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.jiawa.wiki.controller.UserController$$EnhancerBySpringCGLIB$$ff7116b9.list(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.jiawa.wiki.filter.LogFilter.doFilter(LogFilter.java:33)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-18 19:14:27.658 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.jiawa.wiki.mapper.UserMapper.selectByExample]
+2021-06-18 19:14:27.659 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：11 ms -----------
+2021-06-18 19:14:32.196 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-18 19:14:32.201 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2021-06-18 19:14:32.201 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 19:14:32.218 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-18 19:14:32.220 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2021-06-18 19:14:32.221 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.UserController.list
+2021-06-18 19:14:32.221 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 19:14:32.221 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"loginName":"test","page":1,"size":10}]
+2021-06-18 19:14:32.226 ERROR c.jiawa.wiki.controller.ControllerExceptionHandler:59   [32m                  [0;39m 系统异常：
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.jiawa.wiki.mapper.UserMapper.selectByExample
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:115)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:102)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy90.selectByExample(Unknown Source)
+	at com.jiawa.wiki.service.UserService.list(UserService.java:42)
+	at com.jiawa.wiki.controller.UserController.list(UserController.java:27)
+	at com.jiawa.wiki.controller.UserController$$FastClassBySpringCGLIB$$5f26ceea.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.jiawa.wiki.aspect.LogAspect.doAround(LogAspect.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.jiawa.wiki.controller.UserController$$EnhancerBySpringCGLIB$$ff7116b9.list(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.jiawa.wiki.filter.LogFilter.doFilter(LogFilter.java:33)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-18 19:14:32.229 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.jiawa.wiki.mapper.UserMapper.selectByExample]
+2021-06-18 19:14:32.229 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：28 ms -----------
+2021-06-18 19:17:12.951 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-18 19:17:12.964 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2021-06-18 19:17:12.966 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 19:17:13.004 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-18 19:17:13.009 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2021-06-18 19:17:13.010 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.UserController.list
+2021-06-18 19:17:13.010 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 19:17:13.012 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"loginName":"test","page":1,"size":10}]
+2021-06-18 19:17:13.017 ERROR c.jiawa.wiki.controller.ControllerExceptionHandler:59   [32m                  [0;39m 系统异常：
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.jiawa.wiki.mapper.UserMapper.selectByExample
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:115)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:102)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy90.selectByExample(Unknown Source)
+	at com.jiawa.wiki.service.UserService.list(UserService.java:42)
+	at com.jiawa.wiki.controller.UserController.list(UserController.java:27)
+	at com.jiawa.wiki.controller.UserController$$FastClassBySpringCGLIB$$5f26ceea.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.jiawa.wiki.aspect.LogAspect.doAround(LogAspect.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.jiawa.wiki.controller.UserController$$EnhancerBySpringCGLIB$$ff7116b9.list(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.jiawa.wiki.filter.LogFilter.doFilter(LogFilter.java:33)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-18 19:17:13.029 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.jiawa.wiki.mapper.UserMapper.selectByExample]
+2021-06-18 19:17:13.031 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：64 ms -----------
+2021-06-18 19:18:23.860 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-18 19:18:23.868 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2021-06-18 19:18:23.869 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 19:18:23.886 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-18 19:18:23.889 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2021-06-18 19:18:23.890 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.UserController.list
+2021-06-18 19:18:23.891 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 19:18:23.892 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2021-06-18 19:18:23.894 ERROR c.jiawa.wiki.controller.ControllerExceptionHandler:59   [32m                  [0;39m 系统异常：
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.jiawa.wiki.mapper.UserMapper.selectByExample
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:115)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:102)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy90.selectByExample(Unknown Source)
+	at com.jiawa.wiki.service.UserService.list(UserService.java:42)
+	at com.jiawa.wiki.controller.UserController.list(UserController.java:27)
+	at com.jiawa.wiki.controller.UserController$$FastClassBySpringCGLIB$$5f26ceea.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.jiawa.wiki.aspect.LogAspect.doAround(LogAspect.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.jiawa.wiki.controller.UserController$$EnhancerBySpringCGLIB$$ff7116b9.list(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.jiawa.wiki.filter.LogFilter.doFilter(LogFilter.java:33)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-18 19:18:23.906 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.jiawa.wiki.mapper.UserMapper.selectByExample]
+2021-06-18 19:18:23.907 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：38 ms -----------
+2021-06-18 19:19:56.433 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-18 19:19:56.440 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2021-06-18 19:19:56.441 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 19:19:56.450 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-18 19:19:56.452 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2021-06-18 19:19:56.452 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.CategoryController.all
+2021-06-18 19:19:56.453 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 19:19:56.454 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: []
+2021-06-18 19:19:56.689 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":[{"id":100,"name":"前端开发","parent":0,"sort":100},{"id":101,"name":"Vue","parent":100,"sort":101},{"id":102,"name":"HTML & CSS","parent":100,"sort":102},{"id":200,"name":"Java","parent":0,"sort":200},{"id":201,"name":"基础应用","parent":200,"sort":201},{"id":202,"name":"框架英勇","parent":200,"sort":202},{"id":300,"name":"Python","parent":0,"sort":300},{"id":301,"name":"基础应用","parent":300,"sort":301},{"id":302,"name":"进阶方向应用","parent":300,"sort":302},{"id":400,"name":"数据库","parent":0,"sort":400}],"message":"成功","success":true}
+2021-06-18 19:19:56.689 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：239 ms -------------
+2021-06-18 19:19:56.701 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：260 ms -----------
+2021-06-18 19:19:56.721 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-18 19:19:56.722 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-18 19:19:56.722 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 19:19:56.749 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-18 19:19:56.749 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-18 19:19:56.750 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.EbookController.list
+2021-06-18 19:19:56.751 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 19:19:56.758 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2021-06-18 19:19:56.859 INFO  com.jiawa.wiki.service.EbookService               :43   [32m                  [0;39m 总行数：6
+2021-06-18 19:19:56.860 INFO  com.jiawa.wiki.service.EbookService               :44   [32m                  [0;39m 总页数：1
+2021-06-18 19:19:56.877 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":200,"category2Id":202,"cover":"/image/cover1.png","description":"企业级应用开发首选框架","docCount":11,"id":1,"name":"Springboot最佳入门教程","viewCount":21,"voteCount":1},{"category1Id":100,"category2Id":101,"cover":"/image/cover2.png","description":"企业级应用开发首选框架","docCount":12223,"id":2,"name":"Vue入门教程","viewCount":212,"voteCount":2},{"category1Id":400,"category2Id":402,"cover":"/image/cover2.png","description":"非关系型数据库","docCount":32,"id":3,"name":"Redis开发与运维","viewCount":12,"voteCount":3},{"category1Id":200,"category2Id":201,"cover":"/image/cover1.png","description":"Java圣经","docCount":45,"id":4,"name":"Java编程思想","viewCount":21,"voteCount":4},{"category1Id":500,"category2Id":502,"cover":"/image/cover1.png","description":"很有意思的一本书","docCount":279,"id":5,"name":"Linux内核","viewCount":398,"voteCount":5},{"category1Id":500,"category2Id":501,"cover":"/image/cover2.png","description":"Github协同开发","docCount":90,"id":6,"name":"Git高手之路","viewCount":2,"voteCount":6}],"total":6},"message":"成功","success":true}
+2021-06-18 19:19:56.878 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：129 ms -------------
+2021-06-18 19:19:56.884 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：162 ms -----------
+2021-06-18 19:20:42.133 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-18 19:20:42.134 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2021-06-18 19:20:42.134 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 19:20:42.135 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-18 19:20:42.136 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2021-06-18 19:20:42.136 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.UserController.list
+2021-06-18 19:20:42.136 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 19:20:42.137 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2021-06-18 19:20:42.140 ERROR c.jiawa.wiki.controller.ControllerExceptionHandler:59   [32m                  [0;39m 系统异常：
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.jiawa.wiki.mapper.UserMapper.selectByExample
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:115)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:102)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy90.selectByExample(Unknown Source)
+	at com.jiawa.wiki.service.UserService.list(UserService.java:42)
+	at com.jiawa.wiki.controller.UserController.list(UserController.java:27)
+	at com.jiawa.wiki.controller.UserController$$FastClassBySpringCGLIB$$5f26ceea.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.jiawa.wiki.aspect.LogAspect.doAround(LogAspect.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.jiawa.wiki.controller.UserController$$EnhancerBySpringCGLIB$$ff7116b9.list(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.jiawa.wiki.filter.LogFilter.doFilter(LogFilter.java:33)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-18 19:20:42.144 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.jiawa.wiki.mapper.UserMapper.selectByExample]
+2021-06-18 19:20:42.145 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：11 ms -----------
+2021-06-18 19:20:43.997 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-18 19:20:44.000 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2021-06-18 19:20:44.000 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 19:20:44.001 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-18 19:20:44.001 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2021-06-18 19:20:44.002 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.CategoryController.all
+2021-06-18 19:20:44.002 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 19:20:44.003 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: []
+2021-06-18 19:20:44.037 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":[{"id":100,"name":"前端开发","parent":0,"sort":100},{"id":101,"name":"Vue","parent":100,"sort":101},{"id":102,"name":"HTML & CSS","parent":100,"sort":102},{"id":200,"name":"Java","parent":0,"sort":200},{"id":201,"name":"基础应用","parent":200,"sort":201},{"id":202,"name":"框架英勇","parent":200,"sort":202},{"id":300,"name":"Python","parent":0,"sort":300},{"id":301,"name":"基础应用","parent":300,"sort":301},{"id":302,"name":"进阶方向应用","parent":300,"sort":302},{"id":400,"name":"数据库","parent":0,"sort":400},{"id":401,"name":"MySQL","parent":400,"sort":401},{"id":402,"name":"Redis","parent":400,"sort":402},{"id":500,"name":"其他","parent":0,"sort":500},{"id":501,"name":"开发工具","parent":500,"sort":501},{"id":502,"name":"服务器","parent":500,"sort":502},{"id":503,"name":"热门服务端语言","parent":500,"sort":503}],"message":"成功","success":true}
+2021-06-18 19:20:44.038 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：37 ms -------------
+2021-06-18 19:20:44.042 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：42 ms -----------
+2021-06-18 19:20:44.061 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-18 19:20:44.062 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-18 19:20:44.062 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 19:20:44.065 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-18 19:20:44.066 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/ebook/list GET
+2021-06-18 19:20:44.066 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.EbookController.list
+2021-06-18 19:20:44.067 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 19:20:44.067 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2021-06-18 19:20:44.129 INFO  com.jiawa.wiki.service.EbookService               :43   [32m                  [0;39m 总行数：6
+2021-06-18 19:20:44.130 INFO  com.jiawa.wiki.service.EbookService               :44   [32m                  [0;39m 总页数：1
+2021-06-18 19:20:44.131 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":200,"category2Id":202,"cover":"/image/cover1.png","description":"企业级应用开发首选框架","docCount":11,"id":1,"name":"Springboot最佳入门教程","viewCount":21,"voteCount":1},{"category1Id":100,"category2Id":101,"cover":"/image/cover2.png","description":"企业级应用开发首选框架","docCount":12223,"id":2,"name":"Vue入门教程","viewCount":212,"voteCount":2},{"category1Id":400,"category2Id":402,"cover":"/image/cover2.png","description":"非关系型数据库","docCount":32,"id":3,"name":"Redis开发与运维","viewCount":12,"voteCount":3},{"category1Id":200,"category2Id":201,"cover":"/image/cover1.png","description":"Java圣经","docCount":45,"id":4,"name":"Java编程思想","viewCount":21,"voteCount":4},{"category1Id":500,"category2Id":502,"cover":"/image/cover1.png","description":"很有意思的一本书","docCount":279,"id":5,"name":"Linux内核","viewCount":398,"voteCount":5},{"category1Id":500,"category2Id":501,"cover":"/image/cover2.png","description":"Github协同开发","docCount":90,"id":6,"name":"Git高手之路","viewCount":2,"voteCount":6}],"total":6},"message":"成功","success":true}
+2021-06-18 19:20:44.132 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：66 ms -------------
+2021-06-18 19:20:44.134 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：71 ms -----------
+2021-06-18 19:20:56.852 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-18 19:20:56.855 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2021-06-18 19:20:56.855 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 19:20:56.856 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-18 19:20:56.856 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/category/all GET
+2021-06-18 19:20:56.856 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.CategoryController.all
+2021-06-18 19:20:56.857 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 19:20:56.857 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: []
+2021-06-18 19:20:56.891 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":[{"id":100,"name":"前端开发","parent":0,"sort":100},{"id":101,"name":"Vue","parent":100,"sort":101},{"id":102,"name":"HTML & CSS","parent":100,"sort":102},{"id":200,"name":"Java","parent":0,"sort":200},{"id":201,"name":"基础应用","parent":200,"sort":201},{"id":202,"name":"框架英勇","parent":200,"sort":202},{"id":300,"name":"Python","parent":0,"sort":300},{"id":301,"name":"基础应用","parent":300,"sort":301},{"id":302,"name":"进阶方向应用","parent":300,"sort":302},{"id":400,"name":"数据库","parent":0,"sort":400},{"id":401,"name":"MySQL","parent":400,"sort":401},{"id":402,"name":"Redis","parent":400,"sort":402},{"id":500,"name":"其他","parent":0,"sort":500},{"id":501,"name":"开发工具","parent":500,"sort":501},{"id":502,"name":"服务器","parent":500,"sort":502},{"id":503,"name":"热门服务端语言","parent":500,"sort":503}],"message":"成功","success":true}
+2021-06-18 19:20:56.896 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：40 ms -------------
+2021-06-18 19:20:56.904 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：49 ms -----------
+2021-06-18 19:20:57.208 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-18 19:20:57.208 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/favicon.ico GET
+2021-06-18 19:20:57.209 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 19:20:57.210 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：1 ms -----------
+2021-06-18 19:21:13.121 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-18 19:21:13.123 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2021-06-18 19:21:13.124 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-06-18 19:21:13.126 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-18 19:21:13.127 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://localhost:8880/ebook/list GET
+2021-06-18 19:21:13.127 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.EbookController.list
+2021-06-18 19:21:13.127 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-06-18 19:21:13.128 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"page":0,"size":0}]
+2021-06-18 19:21:13.196 INFO  com.jiawa.wiki.service.EbookService               :43   [32m                  [0;39m 总行数：6
+2021-06-18 19:21:13.197 INFO  com.jiawa.wiki.service.EbookService               :44   [32m                  [0;39m 总页数：0
+2021-06-18 19:21:13.200 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":200,"category2Id":202,"cover":"/image/cover1.png","description":"企业级应用开发首选框架","docCount":11,"id":1,"name":"Springboot最佳入门教程","viewCount":21,"voteCount":1},{"category1Id":100,"category2Id":101,"cover":"/image/cover2.png","description":"企业级应用开发首选框架","docCount":12223,"id":2,"name":"Vue入门教程","viewCount":212,"voteCount":2},{"category1Id":400,"category2Id":402,"cover":"/image/cover2.png","description":"非关系型数据库","docCount":32,"id":3,"name":"Redis开发与运维","viewCount":12,"voteCount":3},{"category1Id":200,"category2Id":201,"cover":"/image/cover1.png","description":"Java圣经","docCount":45,"id":4,"name":"Java编程思想","viewCount":21,"voteCount":4},{"category1Id":500,"category2Id":502,"cover":"/image/cover1.png","description":"很有意思的一本书","docCount":279,"id":5,"name":"Linux内核","viewCount":398,"voteCount":5},{"category1Id":500,"category2Id":501,"cover":"/image/cover2.png","description":"Github协同开发","docCount":90,"id":6,"name":"Git高手之路","viewCount":2,"voteCount":6}],"total":6},"message":"成功","success":true}
+2021-06-18 19:21:13.201 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：75 ms -------------
+2021-06-18 19:21:13.206 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：81 ms -----------
+2021-06-18 19:21:13.464 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-18 19:21:13.464 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://localhost:8880/favicon.ico GET
+2021-06-18 19:21:13.464 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-06-18 19:21:13.466 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：2 ms -----------
+2021-06-18 19:21:29.649 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-18 19:21:29.654 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://localhost:8880/user/list GET
+2021-06-18 19:21:29.655 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-06-18 19:21:29.670 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-18 19:21:29.671 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://localhost:8880/user/list GET
+2021-06-18 19:21:29.671 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.UserController.list
+2021-06-18 19:21:29.672 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-06-18 19:21:29.673 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"page":0,"size":0}]
+2021-06-18 19:21:29.675 ERROR c.jiawa.wiki.controller.ControllerExceptionHandler:59   [32m                  [0;39m 系统异常：
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.jiawa.wiki.mapper.UserMapper.selectByExample
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:115)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:102)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy90.selectByExample(Unknown Source)
+	at com.jiawa.wiki.service.UserService.list(UserService.java:42)
+	at com.jiawa.wiki.controller.UserController.list(UserController.java:27)
+	at com.jiawa.wiki.controller.UserController$$FastClassBySpringCGLIB$$5f26ceea.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.jiawa.wiki.aspect.LogAspect.doAround(LogAspect.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.jiawa.wiki.controller.UserController$$EnhancerBySpringCGLIB$$ff7116b9.list(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.jiawa.wiki.filter.LogFilter.doFilter(LogFilter.java:33)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-18 19:21:29.686 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.jiawa.wiki.mapper.UserMapper.selectByExample]
+2021-06-18 19:21:29.688 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：33 ms -----------
+2021-06-18 19:23:07.347 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-06-18 19:23:07.392 INFO  com.alibaba.druid.pool.DruidDataSource            :1825 [32m                  [0;39m {dataSource-1} closed
+2021-06-18 19:23:26.933 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2021-06-18 19:23:27.031 INFO  com.jiawa.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_261 on tydemacbook.local with PID 6985 (/Users/mr.stark/Desktop/wiki/target/classes started by mr.stark in /Users/mr.stark/Desktop/wiki)
+2021-06-18 19:23:27.034 INFO  com.jiawa.wiki.config.WikiApplication             :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-06-18 19:23:27.185 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-18 19:23:27.186 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-18 19:23:29.054 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-06-18 19:23:29.058 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-06-18 19:23:29.088 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2021-06-18 19:23:31.900 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-06-18 19:23:31.914 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-06-18 19:23:31.915 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-06-18 19:23:31.915 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-06-18 19:23:32.051 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-06-18 19:23:32.052 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 4865 ms
+2021-06-18 19:23:33.727 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-18 19:23:34.414 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-06-18 19:23:34.445 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-06-18 19:23:34.507 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-06-18 19:23:34.523 INFO  com.jiawa.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 9.343 seconds (JVM running for 10.722)
+2021-06-18 19:23:34.528 INFO  com.jiawa.wiki.config.WikiApplication             :21   [32m                  [0;39m 启动成功！！！
+2021-06-18 19:23:34.528 INFO  com.jiawa.wiki.config.WikiApplication             :22   [32m                  [0;39m 地址：	http://127.0.0.1:8880
+2021-06-18 19:24:08.577 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-18 19:24:08.580 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-06-18 19:24:08.601 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 19 ms
+2021-06-18 19:24:08.691 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-18 19:24:08.692 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://localhost:8880/user/list GET
+2021-06-18 19:24:08.693 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-06-18 19:24:08.979 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-18 19:24:08.980 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://localhost:8880/user/list GET
+2021-06-18 19:24:08.980 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.UserController.list
+2021-06-18 19:24:08.981 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-06-18 19:24:09.112 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"page":0,"size":0}]
+2021-06-18 19:24:09.143 ERROR c.jiawa.wiki.controller.ControllerExceptionHandler:59   [32m                  [0;39m 系统异常：
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.jiawa.wiki.mapper.UserMapper.selectByExample
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:115)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:102)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy90.selectByExample(Unknown Source)
+	at com.jiawa.wiki.service.UserService.list(UserService.java:41)
+	at com.jiawa.wiki.controller.UserController.list(UserController.java:27)
+	at com.jiawa.wiki.controller.UserController$$FastClassBySpringCGLIB$$5f26ceea.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.jiawa.wiki.aspect.LogAspect.doAround(LogAspect.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.jiawa.wiki.controller.UserController$$EnhancerBySpringCGLIB$$2dc1a24f.list(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.jiawa.wiki.filter.LogFilter.doFilter(LogFilter.java:33)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-18 19:24:09.298 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.jiawa.wiki.mapper.UserMapper.selectByExample]
+2021-06-18 19:24:09.396 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：703 ms -----------
+2021-06-18 19:24:12.902 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-18 19:24:12.903 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://localhost:8880/user/list GET
+2021-06-18 19:24:12.904 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-06-18 19:24:12.905 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-18 19:24:12.906 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://localhost:8880/user/list GET
+2021-06-18 19:24:12.906 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.UserController.list
+2021-06-18 19:24:12.907 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-06-18 19:24:12.908 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"page":0,"size":0}]
+2021-06-18 19:24:12.909 ERROR c.jiawa.wiki.controller.ControllerExceptionHandler:59   [32m                  [0;39m 系统异常：
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.jiawa.wiki.mapper.UserMapper.selectByExample
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:115)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:102)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy90.selectByExample(Unknown Source)
+	at com.jiawa.wiki.service.UserService.list(UserService.java:41)
+	at com.jiawa.wiki.controller.UserController.list(UserController.java:27)
+	at com.jiawa.wiki.controller.UserController$$FastClassBySpringCGLIB$$5f26ceea.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.jiawa.wiki.aspect.LogAspect.doAround(LogAspect.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.jiawa.wiki.controller.UserController$$EnhancerBySpringCGLIB$$2dc1a24f.list(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.jiawa.wiki.filter.LogFilter.doFilter(LogFilter.java:33)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-18 19:24:12.913 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.jiawa.wiki.mapper.UserMapper.selectByExample]
+2021-06-18 19:24:12.914 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：10 ms -----------
+2021-06-18 19:32:59.643 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-06-18 19:33:05.357 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2021-06-18 19:33:05.459 INFO  com.jiawa.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_261 on tydemacbook.local with PID 7630 (/Users/mr.stark/Desktop/wiki/target/classes started by mr.stark in /Users/mr.stark/Desktop/wiki)
+2021-06-18 19:33:05.460 INFO  com.jiawa.wiki.config.WikiApplication             :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-06-18 19:33:05.585 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-18 19:33:05.586 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-18 19:33:06.864 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-06-18 19:33:06.869 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-06-18 19:33:06.902 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-06-18 19:33:08.079 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-06-18 19:33:08.094 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-06-18 19:33:08.095 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-06-18 19:33:08.096 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-06-18 19:33:08.197 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-06-18 19:33:08.198 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2605 ms
+2021-06-18 19:33:09.733 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-18 19:33:10.346 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-06-18 19:33:10.368 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-06-18 19:33:10.397 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-06-18 19:33:10.410 INFO  com.jiawa.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 5.931 seconds (JVM running for 6.778)
+2021-06-18 19:33:10.413 INFO  com.jiawa.wiki.config.WikiApplication             :21   [32m                  [0;39m 启动成功！！！
+2021-06-18 19:33:10.414 INFO  com.jiawa.wiki.config.WikiApplication             :22   [32m                  [0;39m 地址：	http://127.0.0.1:8880
+2021-06-18 19:33:19.486 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-18 19:33:19.487 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-06-18 19:33:19.489 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 2 ms
+2021-06-18 19:33:19.501 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-18 19:33:19.502 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://localhost:8880/user/list GET
+2021-06-18 19:33:19.503 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-06-18 19:33:19.634 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-18 19:33:19.635 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://localhost:8880/user/list GET
+2021-06-18 19:33:19.635 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.UserController.list
+2021-06-18 19:33:19.635 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-06-18 19:33:19.848 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"page":0,"size":0}]
+2021-06-18 19:33:20.393 INFO  com.alibaba.druid.pool.DruidDataSource            :930  [32m                  [0;39m {dataSource-1} inited
+2021-06-18 19:33:21.099 INFO  com.jiawa.wiki.service.UserService                :44   [32m                  [0;39m 总行数：1
+2021-06-18 19:33:21.100 INFO  com.jiawa.wiki.service.UserService                :45   [32m                  [0;39m 总页数：0
+2021-06-18 19:33:21.133 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":{"list":[{"id":1,"loginName":"test","name":"测试"}],"total":1},"message":"成功","success":true}
+2021-06-18 19:33:21.134 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：1501 ms -------------
+2021-06-18 19:33:21.209 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：1705 ms -----------
+2021-06-18 19:33:22.812 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-18 19:33:22.813 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://localhost:8880/user/list GET
+2021-06-18 19:33:22.813 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-06-18 19:33:22.815 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-18 19:33:22.816 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://localhost:8880/user/list GET
+2021-06-18 19:33:22.816 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.UserController.list
+2021-06-18 19:33:22.817 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2021-06-18 19:33:22.817 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"page":0,"size":0}]
+2021-06-18 19:33:22.879 INFO  com.jiawa.wiki.service.UserService                :44   [32m                  [0;39m 总行数：1
+2021-06-18 19:33:22.880 INFO  com.jiawa.wiki.service.UserService                :45   [32m                  [0;39m 总页数：0
+2021-06-18 19:33:22.880 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":{"list":[{"id":1,"loginName":"test","name":"测试"}],"total":1},"message":"成功","success":true}
+2021-06-18 19:33:22.881 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：66 ms -------------
+2021-06-18 19:33:22.883 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：69 ms -----------
+2021-06-18 19:33:26.076 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-18 19:33:26.081 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2021-06-18 19:33:26.081 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 19:33:26.125 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-18 19:33:26.126 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2021-06-18 19:33:26.126 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.UserController.list
+2021-06-18 19:33:26.127 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 19:33:26.127 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2021-06-18 19:33:26.216 INFO  com.jiawa.wiki.service.UserService                :44   [32m                  [0;39m 总行数：1
+2021-06-18 19:33:26.217 INFO  com.jiawa.wiki.service.UserService                :45   [32m                  [0;39m 总页数：1
+2021-06-18 19:33:26.217 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":{"list":[{"id":1,"loginName":"test","name":"测试"}],"total":1},"message":"成功","success":true}
+2021-06-18 19:33:26.218 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：93 ms -------------
+2021-06-18 19:33:26.221 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：140 ms -----------
+2021-06-18 20:14:13.400 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-18 20:14:13.407 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2021-06-18 20:14:13.407 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 20:14:13.431 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-18 20:14:13.434 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2021-06-18 20:14:13.434 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.UserController.list
+2021-06-18 20:14:13.435 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 20:14:13.436 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2021-06-18 20:14:13.928 INFO  com.jiawa.wiki.service.UserService                :44   [32m                  [0;39m 总行数：1
+2021-06-18 20:14:13.933 INFO  com.jiawa.wiki.service.UserService                :45   [32m                  [0;39m 总页数：1
+2021-06-18 20:14:13.936 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":{"list":[{"id":1,"loginName":"test","name":"测试"}],"total":1},"message":"成功","success":true}
+2021-06-18 20:14:13.936 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：505 ms -------------
+2021-06-18 20:14:13.943 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：536 ms -----------
+2021-06-18 20:18:59.931 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-06-18 20:18:59.980 INFO  com.alibaba.druid.pool.DruidDataSource            :1825 [32m                  [0;39m {dataSource-1} closed
+2021-06-18 20:19:07.453 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2021-06-18 20:19:07.560 INFO  com.jiawa.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_261 on tydemacbook.local with PID 10045 (/Users/mr.stark/Desktop/wiki/target/classes started by mr.stark in /Users/mr.stark/Desktop/wiki)
+2021-06-18 20:19:07.579 INFO  com.jiawa.wiki.config.WikiApplication             :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-06-18 20:19:07.719 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-18 20:19:07.719 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-18 20:19:08.908 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-06-18 20:19:08.913 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-06-18 20:19:08.954 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+2021-06-18 20:19:10.064 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-06-18 20:19:10.075 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-06-18 20:19:10.076 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-06-18 20:19:10.077 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-06-18 20:19:10.171 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-06-18 20:19:10.172 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2443 ms
+2021-06-18 20:19:11.995 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-18 20:19:12.695 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-06-18 20:19:12.720 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-06-18 20:19:12.758 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-06-18 20:19:12.773 INFO  com.jiawa.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 6.392 seconds (JVM running for 7.236)
+2021-06-18 20:19:12.776 INFO  com.jiawa.wiki.config.WikiApplication             :21   [32m                  [0;39m 启动成功！！！
+2021-06-18 20:19:12.777 INFO  com.jiawa.wiki.config.WikiApplication             :22   [32m                  [0;39m 地址：	http://127.0.0.1:8880
+2021-06-18 20:20:51.754 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-18 20:20:51.815 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-06-18 20:20:51.871 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 52 ms
+2021-06-18 20:20:51.894 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-18 20:20:51.896 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2021-06-18 20:20:51.896 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 20:20:52.231 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-18 20:20:52.231 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2021-06-18 20:20:52.233 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.UserController.list
+2021-06-18 20:20:52.234 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 20:20:52.385 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2021-06-18 20:20:53.065 INFO  com.alibaba.druid.pool.DruidDataSource            :930  [32m                  [0;39m {dataSource-1} inited
+2021-06-18 20:20:53.781 INFO  com.jiawa.wiki.service.UserService                :54   [32m                  [0;39m 总行数：1
+2021-06-18 20:20:53.782 INFO  com.jiawa.wiki.service.UserService                :55   [32m                  [0;39m 总页数：1
+2021-06-18 20:20:53.802 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":{"list":[{"id":1,"loginName":"test","name":"测试"}],"total":1},"message":"成功","success":true}
+2021-06-18 20:20:53.802 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：1609 ms -------------
+2021-06-18 20:20:53.893 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：1997 ms -----------
+2021-06-18 20:21:04.729 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-18 20:21:04.729 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/save OPTIONS
+2021-06-18 20:21:04.729 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 20:21:04.735 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：6 ms -----------
+2021-06-18 20:21:04.739 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-18 20:21:04.740 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/save POST
+2021-06-18 20:21:04.740 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 20:21:04.803 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-18 20:21:04.804 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/save POST
+2021-06-18 20:21:04.804 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.UserController.save
+2021-06-18 20:21:04.804 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 20:21:04.808 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"loginName":"vgdhqas","name":"dsada"}]
+2021-06-18 20:21:04.915 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"message":"成功","success":true}
+2021-06-18 20:21:04.915 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：112 ms -------------
+2021-06-18 20:21:04.917 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：177 ms -----------
+2021-06-18 20:21:04.938 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-18 20:21:04.938 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2021-06-18 20:21:04.939 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 20:21:04.940 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-18 20:21:04.941 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2021-06-18 20:21:04.941 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.UserController.list
+2021-06-18 20:21:04.941 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 20:21:04.941 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2021-06-18 20:21:05.004 INFO  com.jiawa.wiki.service.UserService                :54   [32m                  [0;39m 总行数：2
+2021-06-18 20:21:05.005 INFO  com.jiawa.wiki.service.UserService                :55   [32m                  [0;39m 总页数：1
+2021-06-18 20:21:05.006 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":{"list":[{"id":1,"loginName":"test","name":"测试"},{"id":61067660519149568,"loginName":"vgdhqas","name":"dsada"}],"total":2},"message":"成功","success":true}
+2021-06-18 20:21:05.007 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：67 ms -------------
+2021-06-18 20:21:05.014 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：75 ms -----------
+2021-06-18 20:21:30.750 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-18 20:21:30.751 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/reset-password OPTIONS
+2021-06-18 20:21:30.751 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 20:21:30.758 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：7 ms -----------
+2021-06-18 20:21:30.765 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-18 20:21:30.766 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/reset-password POST
+2021-06-18 20:21:30.766 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 20:21:30.769 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：3 ms -----------
+2021-06-18 20:25:51.463 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2021-06-18 20:25:51.510 INFO  com.alibaba.druid.pool.DruidDataSource            :1825 [32m                  [0;39m {dataSource-1} closed
+2021-06-18 20:25:56.960 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2021-06-18 20:25:57.062 INFO  com.jiawa.wiki.config.WikiApplication             :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_261 on tydemacbook.local with PID 10407 (/Users/mr.stark/Desktop/wiki/target/classes started by mr.stark in /Users/mr.stark/Desktop/wiki)
+2021-06-18 20:25:57.064 INFO  com.jiawa.wiki.config.WikiApplication             :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2021-06-18 20:25:57.277 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-18 20:25:57.277 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-18 20:25:58.785 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-06-18 20:25:58.789 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-06-18 20:25:58.813 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2021-06-18 20:26:00.292 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2021-06-18 20:26:00.304 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2021-06-18 20:26:00.305 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2021-06-18 20:26:00.306 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-06-18 20:26:00.419 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2021-06-18 20:26:00.420 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 3136 ms
+2021-06-18 20:26:01.988 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-18 20:26:02.783 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2021-06-18 20:26:02.817 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2021-06-18 20:26:02.852 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2021-06-18 20:26:02.866 INFO  com.jiawa.wiki.config.WikiApplication             :61   [32m                  [0;39m Started WikiApplication in 6.671 seconds (JVM running for 7.385)
+2021-06-18 20:26:02.870 INFO  com.jiawa.wiki.config.WikiApplication             :21   [32m                  [0;39m 启动成功！！！
+2021-06-18 20:26:02.870 INFO  com.jiawa.wiki.config.WikiApplication             :22   [32m                  [0;39m 地址：	http://127.0.0.1:8880
+2021-06-18 20:26:12.636 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-18 20:26:12.637 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2021-06-18 20:26:12.640 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 2 ms
+2021-06-18 20:26:12.655 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-18 20:26:12.656 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2021-06-18 20:26:12.656 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 20:26:13.117 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-18 20:26:13.118 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2021-06-18 20:26:13.118 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.UserController.list
+2021-06-18 20:26:13.119 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 20:26:13.207 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2021-06-18 20:26:13.704 INFO  com.alibaba.druid.pool.DruidDataSource            :930  [32m                  [0;39m {dataSource-1} inited
+2021-06-18 20:26:14.413 INFO  com.jiawa.wiki.service.UserService                :54   [32m                  [0;39m 总行数：2
+2021-06-18 20:26:14.414 INFO  com.jiawa.wiki.service.UserService                :55   [32m                  [0;39m 总页数：1
+2021-06-18 20:26:14.430 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":{"list":[{"id":1,"loginName":"test","name":"测试"},{"id":61067660519149568,"loginName":"vgdhqas","name":"dsada"}],"total":2},"message":"成功","success":true}
+2021-06-18 20:26:14.430 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：1314 ms -------------
+2021-06-18 20:26:14.490 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：1834 ms -----------
+2021-06-18 20:26:20.138 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-18 20:26:20.138 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/reset-password POST
+2021-06-18 20:26:20.138 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 20:26:20.198 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-18 20:26:20.199 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/reset-password POST
+2021-06-18 20:26:20.199 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.UserController.resetPassword
+2021-06-18 20:26:20.199 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 20:26:20.203 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"id":1}]
+2021-06-18 20:26:20.278 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"message":"成功","success":true}
+2021-06-18 20:26:20.279 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：81 ms -------------
+2021-06-18 20:26:20.281 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：142 ms -----------
+2021-06-18 20:26:20.301 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-18 20:26:20.301 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2021-06-18 20:26:20.301 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 20:26:20.303 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-18 20:26:20.303 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2021-06-18 20:26:20.303 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.UserController.list
+2021-06-18 20:26:20.304 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 20:26:20.304 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2021-06-18 20:26:20.369 INFO  com.jiawa.wiki.service.UserService                :54   [32m                  [0;39m 总行数：2
+2021-06-18 20:26:20.370 INFO  com.jiawa.wiki.service.UserService                :55   [32m                  [0;39m 总页数：1
+2021-06-18 20:26:20.371 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":{"list":[{"id":1,"loginName":"test","name":"测试"},{"id":61067660519149568,"loginName":"vgdhqas","name":"dsada"}],"total":2},"message":"成功","success":true}
+2021-06-18 20:26:20.371 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：69 ms -------------
+2021-06-18 20:26:20.374 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：73 ms -----------
+2021-06-18 20:26:58.267 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-18 20:26:58.268 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/save POST
+2021-06-18 20:26:58.268 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 20:26:58.282 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-18 20:26:58.282 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/save POST
+2021-06-18 20:26:58.283 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.UserController.save
+2021-06-18 20:26:58.283 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 20:26:58.289 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"loginName":"4rtre","name":"wqe"}]
+2021-06-18 20:26:58.396 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"message":"成功","success":true}
+2021-06-18 20:26:58.396 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：114 ms -------------
+2021-06-18 20:26:58.397 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：129 ms -----------
+2021-06-18 20:26:58.417 INFO  com.jiawa.wiki.filter.LogFilter                   :28   [32m                  [0;39m ----------- LogFilter 开始 -----------
+2021-06-18 20:26:58.417 INFO  com.jiawa.wiki.filter.LogFilter                   :29   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2021-06-18 20:26:58.417 INFO  com.jiawa.wiki.filter.LogFilter                   :30   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 20:26:58.419 INFO  com.jiawa.wiki.aspect.LogAspect                   :53   [32m                  [0;39m ------------- 开始 -------------
+2021-06-18 20:26:58.420 INFO  com.jiawa.wiki.aspect.LogAspect                   :54   [32m                  [0;39m 请求地址: http://127.0.0.1:8880/user/list GET
+2021-06-18 20:26:58.420 INFO  com.jiawa.wiki.aspect.LogAspect                   :55   [32m                  [0;39m 类名方法: com.jiawa.wiki.controller.UserController.list
+2021-06-18 20:26:58.420 INFO  com.jiawa.wiki.aspect.LogAspect                   :56   [32m                  [0;39m 远程地址: 127.0.0.1
+2021-06-18 20:26:58.420 INFO  com.jiawa.wiki.aspect.LogAspect                   :78   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2021-06-18 20:26:58.484 INFO  com.jiawa.wiki.service.UserService                :54   [32m                  [0;39m 总行数：3
+2021-06-18 20:26:58.484 INFO  com.jiawa.wiki.service.UserService                :55   [32m                  [0;39m 总页数：1
+2021-06-18 20:26:58.485 INFO  com.jiawa.wiki.aspect.LogAspect                   :90   [32m                  [0;39m 返回结果: {"content":{"list":[{"id":1,"loginName":"test","name":"测试"},{"id":61067660519149568,"loginName":"vgdhqas","name":"dsada"},{"id":61069143134310400,"loginName":"4rtre","name":"wqe"}],"total":3},"message":"成功","success":true}
+2021-06-18 20:26:58.486 INFO  com.jiawa.wiki.aspect.LogAspect                   :91   [32m                  [0;39m ------------- 结束 耗时：67 ms -------------
+2021-06-18 20:26:58.488 INFO  com.jiawa.wiki.filter.LogFilter                   :34   [32m                  [0;39m ----------- LogFilter 结束 耗时：71 ms -----------
