@@ -2,10 +2,11 @@ package com.jiawa.wiki.mapper;
 
 import com.jiawa.wiki.domain.Userss;
 import com.jiawa.wiki.domain.UserssExample;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
-
 import java.util.List;
 
+@Mapper
 public interface UserssMapper {
     long countByExample(UserssExample example);
 

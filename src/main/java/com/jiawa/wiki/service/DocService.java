@@ -9,6 +9,7 @@ import com.jiawa.wiki.exception.BusinessException;
 import com.jiawa.wiki.exception.BusinessExceptionCode;
 import com.jiawa.wiki.mapper.ContentMapper;
 import com.jiawa.wiki.mapper.DocMapper;
+import com.jiawa.wiki.mapper.DocMapperCust;
 import com.jiawa.wiki.req.DocQueryReq;
 import com.jiawa.wiki.req.DocSaveReq;
 import com.jiawa.wiki.resp.DocQueryResp;
@@ -42,8 +43,8 @@ public class DocService {
     @Resource
     private DocMapper docMapper;
 
-//    @Resource
-//    private DocMapperCust docMapperCust;
+    @Resource
+    private DocMapperCust docMapperCust;
 
     @Resource
     private ContentMapper contentMapper;
@@ -123,7 +124,7 @@ public class DocService {
     public String findContent(Long id) {
         Content content = contentMapper.selectByPrimaryKey(id);
         // 文档阅读数+1
-//        docMapperCust.increaseViewCount(id);
+        docMapperCust.increaseViewCount(id);
         if (ObjectUtils.isEmpty(content)) {
             return "";
         } else {
@@ -139,7 +140,7 @@ public class DocService {
         // 远程IP+doc.id作为key，24小时内不能重复
         String ip = RequestContext.getRemoteAddr();
         if (redisUtil.validateRepeat("DOC_VOTE_" + id + "_" + ip, 5000)) {
-//            docMapperCust.increaseVoteCount(id);
+            docMapperCust.increaseVoteCount(id);
         } else {
             throw new BusinessException(BusinessExceptionCode.VOTE_REPEAT);
         }
@@ -152,6 +153,6 @@ public class DocService {
     }
 
     public void updateEbookInfo() {
-//        docMapperCust.updateEbookInfo();
+        docMapperCust.updateEbookInfo();
     }
 }
