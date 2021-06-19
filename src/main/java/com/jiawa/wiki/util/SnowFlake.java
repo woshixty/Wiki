@@ -94,13 +94,4 @@ public class SnowFlake {
     private long getNewstmp() {
         return System.currentTimeMillis();
     }
-
-    public static void main(String[] args) throws ParseException {
-        SnowFlake snowFlake = new SnowFlake(1, 1);
-        long start = System.currentTimeMillis();
-        for (int i = 0; i < 10; i++) {
-            System.out.println(snowFlake.nextId());
-            System.out.println(System.currentTimeMillis() - start);
-        }
-    }
 }
