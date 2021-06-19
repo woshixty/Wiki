@@ -8,7 +8,7 @@ spring:
     # MySQL\u914D\u7F6E
     driverClassName: com.mysql.cj.jdbc.Driver
     username: root
-    url: jdbc:mysql://8.131.57.6:3306/wiki?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://8.131.57.6:3306/wiki?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai&allowMultiQueries=true
     password: Flzx3qcYsyhl9t
   redis:
     host: 8.131.57.6
