@@ -93,8 +93,7 @@ public class DocService {
         Doc doc = CopyUtil.copy(req, Doc.class);
         Content content = CopyUtil.copy(req, Content.class);
         if (ObjectUtils.isEmpty(req.getId())) {
-            // 新增
-            doc.setId(snowFlake.nextId());
+            // 新增--主键自增
             doc.setViewCount(0);
             doc.setVoteCount(0);
             docMapper.insert(doc);
@@ -136,7 +135,6 @@ public class DocService {
      * 点赞
      */
     public void vote(Long id) {
-        // docMapperCust.increaseVoteCount(id);
         // 远程IP+doc.id作为key，24小时内不能重复
         String ip = RequestContext.getRemoteAddr();
         if (redisUtil.validateRepeat("DOC_VOTE_" + id + "_" + ip, 5000)) {
@@ -144,7 +142,6 @@ public class DocService {
         } else {
             throw new BusinessException(BusinessExceptionCode.VOTE_REPEAT);
         }
-
         // 推送消息
         Doc docDb = docMapper.selectByPrimaryKey(id);
         String logId = MDC.get("LOG_ID");

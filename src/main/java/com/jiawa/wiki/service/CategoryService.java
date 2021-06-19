@@ -76,8 +76,8 @@ public class CategoryService {
     public void save(CategorySaveReq req) {
         Category category = CopyUtil.copy(req, Category.class);
         if (ObjectUtils.isEmpty(req.getId())) {
-            // 新增
-            category.setId(snowFlake.nextId());
+            // 新增--主键自增
+            // category.setId(snowFlake.nextId());
             categoryMapper.insert(category);
         } else {
             // 更新

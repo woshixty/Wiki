@@ -73,7 +73,6 @@ public class UserService {
             User userDB = selectByLoginName(req.getLoginName());
             if (ObjectUtils.isEmpty(userDB)) {
                 // 新增
-                user.setId(snowFlake.nextId());
                 userMapper.insert(user);
             } else {
                 // 用户名已存在
