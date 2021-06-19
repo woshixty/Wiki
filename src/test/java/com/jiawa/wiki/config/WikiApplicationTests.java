@@ -1,4 +1,4 @@
-package com.jiawa.wiki;
+package com.jiawa.wiki.config;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

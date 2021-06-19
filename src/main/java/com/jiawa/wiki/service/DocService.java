@@ -97,6 +97,7 @@ public class DocService {
             doc.setViewCount(0);
             doc.setVoteCount(0);
             docMapper.insert(doc);
+            //主键回填
             content.setId(doc.getId());
             contentMapper.insert(content);
         } else {

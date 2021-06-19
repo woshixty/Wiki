@@ -59,6 +59,9 @@ public class EbookService {
      */
     public void save(EbookSaveReq req) {
         Ebook ebook = CopyUtil.copy(req, Ebook.class);
+        ebook.setViewCount(0);
+        ebook.setVoteCount(0);
+        ebook.setDocCount(0);
         if (ObjectUtils.isEmpty(req.getId())) {
             //新增
             ebookMapper.insert(ebook);

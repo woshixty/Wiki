@@ -15,9 +15,16 @@ public interface DocMapper {
 
     int deleteByPrimaryKey(Long id);
 
-    int insert(Doc record);
+    /**
+     * 主键回填
+     * @param record
+     * @return
+     */
+    Long insert(Doc record);
 
     int insertSelective(Doc record);
+
+    Long insertDoc(Doc record);
 
     List<Doc> selectByExample(DocExample example);
 
