@@ -2,10 +2,12 @@ package com.jiawa.wiki.mapper;
 
 import com.jiawa.wiki.domain.Ebook;
 import com.jiawa.wiki.domain.EbookExample;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
+@Mapper
 public interface EbookMapper {
     long countByExample(EbookExample example);
 

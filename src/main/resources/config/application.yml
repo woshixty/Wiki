@@ -8,14 +8,20 @@ spring:
     # MySQL\u914D\u7F6E
     driverClassName: com.mysql.cj.jdbc.Driver
     username: root
-    url: jdbc:mysql://8.131.57.6:3306/wiki?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://8.131.57.6:3306/wiki?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai&allowMultiQueries=true
     password: Flzx3qcYsyhl9t
+  redis:
+    host: 8.131.57.6
+    port: 6379
+    password: Flzx3qcYsyhl9t
+    database: 1
 
 # 配置mybatis所有的Mapper.xml所在路径
-test:
-  helle: hello
 mybatis:
+  # xml文件所在路径
   mapper-locations: classpath:/mapper/**/*.xml
+  # 配置映射类所在包名
+  type-aliases-package: com.jiawa.wiki.mapper
 
 # 打印所有的sql日志：sql、参数、结果
 #logging:
