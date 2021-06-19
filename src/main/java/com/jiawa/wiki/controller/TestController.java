@@ -31,6 +31,7 @@ public class TestController {
      */
     @GetMapping("/hello")
     public String hello() {
+        System.out.println("Hello");
         return "Hello World!" + testHello;
     }
 

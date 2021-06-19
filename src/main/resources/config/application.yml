@@ -17,8 +17,6 @@ spring:
     database: 1
 
 # 配置mybatis所有的Mapper.xml所在路径
-test:
-  helle: hello
 mybatis:
   # xml文件所在路径
   mapper-locations: classpath:/mapper/**/*.xml
