@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.jiawa.wiki.mapper.CategoryMapper">
+
   <resultMap id="BaseResultMap" type="com.jiawa.wiki.domain.Category">
     <id column="id" jdbcType="BIGINT" property="id" />
     <result column="parent" jdbcType="BIGINT" property="parent" />
     <result column="name" jdbcType="VARCHAR" property="name" />
     <result column="sort" jdbcType="INTEGER" property="sort" />
   </resultMap>
+
   <sql id="Example_Where_Clause">
     <where>
       <foreach collection="oredCriteria" item="criteria" separator="or">
@@ -36,6 +38,7 @@
       </foreach>
     </where>
   </sql>
+
   <sql id="Update_By_Example_Where_Clause">
     <where>
       <foreach collection="example.oredCriteria" item="criteria" separator="or">
@@ -65,9 +68,11 @@
       </foreach>
     </where>
   </sql>
+
   <sql id="Base_Column_List">
     id, parent, `name`, sort
   </sql>
+
   <select id="selectByExample" parameterType="com.jiawa.wiki.domain.CategoryExample" resultMap="BaseResultMap">
     select
     <if test="distinct">
@@ -82,28 +87,31 @@
       order by ${orderByClause}
     </if>
   </select>
+
   <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
     select 
     <include refid="Base_Column_List" />
     from category
     where id = #{id,jdbcType=BIGINT}
   </select>
+
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
     delete from category
     where id = #{id,jdbcType=BIGINT}
   </delete>
+
   <delete id="deleteByExample" parameterType="com.jiawa.wiki.domain.CategoryExample">
     delete from category
     <if test="_parameter != null">
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
+
   <insert id="insert" parameterType="com.jiawa.wiki.domain.Category">
-    insert into category (id, parent, `name`, 
-      sort)
-    values (#{id,jdbcType=BIGINT}, #{parent,jdbcType=BIGINT}, #{name,jdbcType=VARCHAR}, 
-      #{sort,jdbcType=INTEGER})
+    insert into category (id, parent, `name`, sort)
+    values (#{id,jdbcType=BIGINT}, #{parent,jdbcType=BIGINT}, #{name,jdbcType=VARCHAR}, #{sort,jdbcType=INTEGER})
   </insert>
+
   <insert id="insertSelective" parameterType="com.jiawa.wiki.domain.Category">
     insert into category
     <trim prefix="(" suffix=")" suffixOverrides=",">
@@ -135,12 +143,14 @@
       </if>
     </trim>
   </insert>
+
   <select id="countByExample" parameterType="com.jiawa.wiki.domain.CategoryExample" resultType="java.lang.Long">
     select count(*) from category
     <if test="_parameter != null">
       <include refid="Example_Where_Clause" />
     </if>
   </select>
+
   <update id="updateByExampleSelective" parameterType="map">
     update category
     <set>
@@ -161,6 +171,7 @@
       <include refid="Update_By_Example_Where_Clause" />
     </if>
   </update>
+
   <update id="updateByExample" parameterType="map">
     update category
     set id = #{record.id,jdbcType=BIGINT},
@@ -171,6 +182,7 @@
       <include refid="Update_By_Example_Where_Clause" />
     </if>
   </update>
+
   <update id="updateByPrimaryKeySelective" parameterType="com.jiawa.wiki.domain.Category">
     update category
     <set>
@@ -186,6 +198,7 @@
     </set>
     where id = #{id,jdbcType=BIGINT}
   </update>
+
   <update id="updateByPrimaryKey" parameterType="com.jiawa.wiki.domain.Category">
     update category
     set parent = #{parent,jdbcType=BIGINT},

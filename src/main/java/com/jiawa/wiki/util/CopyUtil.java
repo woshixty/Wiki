@@ -2,7 +2,6 @@ package com.jiawa.wiki.util;
 
 import org.springframework.beans.BeanUtils;
 import org.springframework.util.CollectionUtils;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,7 +14,7 @@ public class CopyUtil {
         if (source == null) {
             return null;
         }
-        T obj = null;
+        T obj;
         try {
             obj = clazz.newInstance();
         } catch (Exception e) {

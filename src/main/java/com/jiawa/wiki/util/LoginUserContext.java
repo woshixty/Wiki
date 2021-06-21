@@ -1,8 +1,6 @@
 package com.jiawa.wiki.util;
 
-
 import com.jiawa.wiki.resp.UserLoginResp;
-
 import java.io.Serializable;
 
 public class LoginUserContext implements Serializable {

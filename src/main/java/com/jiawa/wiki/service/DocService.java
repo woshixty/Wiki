@@ -17,7 +17,6 @@ import com.jiawa.wiki.resp.PageResp;
 import com.jiawa.wiki.util.CopyUtil;
 import com.jiawa.wiki.util.RedisUtil;
 import com.jiawa.wiki.util.RequestContext;
-import com.jiawa.wiki.util.SnowFlake;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -48,9 +47,6 @@ public class DocService {
 
     @Resource
     private ContentMapper contentMapper;
-
-    @Resource
-    private SnowFlake snowFlake;
 
     @Resource
     public RedisUtil redisUtil;

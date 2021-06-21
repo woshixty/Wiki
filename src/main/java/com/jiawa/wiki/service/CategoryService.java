@@ -10,12 +10,12 @@ import com.jiawa.wiki.req.CategorySaveReq;
 import com.jiawa.wiki.resp.CategoryQueryResp;
 import com.jiawa.wiki.resp.PageResp;
 import com.jiawa.wiki.util.CopyUtil;
-import com.jiawa.wiki.util.SnowFlake;
+import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.util.ObjectUtils;
+
 import javax.annotation.Resource;
 import java.util.List;
 
@@ -31,9 +31,6 @@ public class CategoryService {
 
     @Resource
     private CategoryMapper categoryMapper;
-
-    @Resource
-    private SnowFlake snowFlake;
 
     /**
      * 查询所有
